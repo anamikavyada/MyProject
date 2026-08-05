@@ -2,17 +2,25 @@
 
 **SQL | Python | Power BI | Data Quality | Revenue Cycle Analytics | Business Intelligence**
 
-> A portfolio analytics project simulating a healthcare payer/provider claims environment to identify denial drivers, quantify revenue leakage, assess provider/payer risk, and translate claim-level data into actionable business recommendations.
+> End-to-end portfolio analytics project demonstrating how claim-level healthcare data can be transformed into executive KPIs, payer/provider analysis, denial-driver investigation, and actionable business recommendations.
 
----
+**Portfolio note:** This project uses synthetic, business-realistic data. It is not a real client implementation and contains no real patient or confidential healthcare information.
 
-## Executive Summary
+## Business Problem
 
-Healthcare claims denials can delay reimbursement, increase accounts receivable, and create preventable revenue leakage. This project approaches the problem from a **Data Analyst / BI Analyst perspective**: build a structured claims analytics pipeline, validate business rules, identify the major drivers of denials, and present the findings through an executive Power BI dashboard.
+Healthcare claims denials can delay reimbursement, increase accounts receivable, and create preventable revenue leakage. Revenue Cycle and operations teams need to answer:
 
-The dashboard covers **465,435 claims** across a simulated 2021–2025 period and provides analysis by payer, provider, department, denial reason, claim status, and risk tier.
+- Which payers have the highest denial rates?
+- Which denial reasons contribute most to financial leakage?
+- Which providers or departments show elevated denial performance risk?
+- Where should coding, documentation, authorization, or process improvements be prioritized?
+- Can an executive KPI be traced back to individual claims for investigation?
 
-### Executive KPIs
+The project approaches the problem from a **Data Analyst / BI Analyst perspective**, combining data preparation, validation, SQL analysis, Power BI modeling, and business storytelling.
+
+## Executive Dashboard
+
+The Power BI dashboard analyzes **465,435 claims** across a simulated **2021–2025** period.
 
 | KPI | Result |
 |---|---:|
@@ -20,270 +28,259 @@ The dashboard covers **465,435 claims** across a simulated 2021–2025 period an
 | Clean Claim Rate | **80.8%** |
 | Net Leakage | **$376.5M** |
 | Average Days in AR | **32 days** |
-| Claims analyzed | **465,435** |
+| Claims Analyzed | **465,435** |
 
-These figures are from the portfolio dashboard and are based on **synthetic data**; they do not represent a real healthcare organization.
+> These are simulated portfolio results, not real business outcomes.
 
----
-
-## Business Problem
-
-Revenue Cycle Management teams need to answer questions such as:
-
-- Which payers have the highest denial rates?
-- Which denial reasons contribute most to financial leakage?
-- Which providers or departments show unusually high denial rates?
-- Where are operational or documentation issues creating preventable denials?
-- Which areas should receive remediation, training, or payer-level attention first?
-- How can claim-level data be converted into an executive view of financial and operational risk?
-
-The project is designed to move beyond descriptive reporting toward **root-cause analysis and decision support**.
-
----
-
-## Key Business Questions
-
-1. Which denial reasons drive the largest share of net leakage?
-2. How does denial performance vary across payers?
-3. Which providers and departments have elevated denial rates?
-4. Are high-denial providers concentrated in particular risk tiers?
-5. What does claim status and denial reason reveal at claim level?
-6. How can denial trends and operational metrics support targeted corrective action?
-
----
-
-## Dashboard
-
-The Power BI solution is organized around four analytical views:
+## Dashboard Views
 
 ### 1. Executive Summary
 
-Provides an executive-level view of:
+Leadership-level monitoring of:
 
 - Denial Rate
 - Net Leakage
 - Clean Claim Rate
 - Average Days in AR
-- Denial-rate trend over time
+- Denial-rate trend by time
 - Net leakage by denial reason
-- Payer and date filters
-- Department-level filtering
+- Payer and department filters
 
 ### 2. Payer Drilldown
 
-Analyzes payer performance using:
+Moves from payer-level performance into provider-level detail using:
 
 - Denial Rate by payer
 - Total Claims
 - Net Leakage
-- Provider-level drilldown
+- Provider-level breakdown
 - Department filtering
 
 ### 3. Claim-Level Detail
 
-Provides a detailed view of individual claims including:
+Supports investigation using:
 
 - Claim ID
 - Procedure Code
 - Claim Amount
-- Cleaned Claim Status
+- Claim Status
 - Denial Reason Code
 
-This layer supports investigation from aggregate KPI → business segment → individual claim.
+This creates an analytical path from **KPI → payer/provider → individual claim**.
 
 ### 4. Provider Risk
 
-Highlights providers with elevated denial rates and classifies them into risk tiers such as:
+Segments providers into:
 
 - Low Risk
 - Moderate Risk
 - High Risk
 - Very High Risk
 
-The view compares provider experience with denial performance and claim volume to support targeted investigation.
+The view compares provider experience, denial rate, department, and claim volume. Example results include high-risk providers with denial rates above 17%.
 
----
+## Analytical Approach
 
-## Analytical Findings
+### Step 1 — Data Preparation
 
-The dashboard demonstrates several important analytical patterns:
+- Standardize claim status values
+- Validate required fields
+- Handle null and blank values
+- Check duplicate claim identifiers
+- Validate payer/provider/department relationships
+- Apply business rules consistently
 
-- Denial performance can vary materially across payers, making payer-level analysis important rather than relying only on provider-level averages.
-- A relatively small set of denial reasons can account for a significant share of financial leakage, making **Pareto-style prioritization** useful for remediation.
-- Providers with elevated denial rates can be surfaced through risk segmentation rather than treating all providers equally.
-- Claim-level drilldown enables users to trace an executive KPI back to individual denied claims and their associated denial reasons.
+### Step 2 — SQL Analytics
 
-The project blueprint also frames potential actions around prior-authorization processes, coding accuracy, documentation quality, and payer performance.
+The analytical design demonstrates:
 
----
-
-## Data & Modeling Approach
-
-The project uses **synthetic, business-realistic healthcare claims data**. The data is intentionally simulated so that no real patient, provider, payer, or healthcare-system information is exposed.
-
-The analytical design follows a relational / star-schema-oriented approach with claims as the central fact and supporting business dimensions such as:
-
-- Payer
-- Provider
-- Department
-- Date
-- Denial Reason
-- Procedure / Claim attributes
-
-The project emphasizes data engineering and analytical practices including:
-
-- Data cleaning
-- Deduplication
-- Status standardization
-- Null handling
-- Referential-integrity checks
-- Business-rule validation
-- Aggregation and KPI calculation
-- SQL-based analytical transformations
-- Power BI semantic modeling and visualization
-
----
-
-## SQL Analytics
-
-The project is designed to demonstrate interview-relevant SQL patterns including:
-
-- CTEs for staged transformations
+- CTEs
 - Multi-table joins
-- Aggregations and KPI calculations
-- Window functions such as `RANK`, `DENSE_RANK`, `LAG`, and `LEAD`
-- Running totals and trend analysis
+- Conditional aggregation
+- Window functions
+- Ranking
+- Period-over-period analysis
 - Pareto analysis
 - Data-quality checks
-- Views for BI consumption
-- Stored-procedure-oriented processing
-- Query-performance considerations
+- KPI-ready views
 
-Example analytical use cases include payer denial-rate ranking, provider risk identification, denial-reason contribution analysis, and claim-level validation.
+### Step 3 — Python
 
----
+Python is used as an analytical workflow layer for:
 
-## Python Analytics
+- Data preparation
+- Pandas-based transformations
+- Exploratory data analysis
+- Validation checks
+- Analytical feature preparation
 
-Python is used as part of the portfolio solution for data preparation and analytical workflow development. The project blueprint includes synthetic-data generation, preprocessing, validation, exploratory analysis, and analytical extensions such as provider-risk scoring / forecasting.
+### Step 4 — Power BI
 
-The intended workflow is:
+Validated data is transformed into decision-oriented dashboards using:
 
-**Raw / synthetic data → Cleaning & validation → Analytical transformations → SQL / semantic model → Power BI → Business recommendations**
+- KPI cards
+- Time-series analysis
+- Payer drilldowns
+- Provider risk segmentation
+- Claim-level tables
+- Interactive filters
+- DAX measures
 
----
+## Business Metrics
 
-## Power BI
+**Denial Rate** — proportion of claims that are denied.
 
-The dashboard focuses on **decision-oriented BI rather than a generic visualization exercise**.
+**Clean Claim Rate** — proportion of claims processed without denial-related issues.
 
-Key design principles include:
+**Net Leakage** — simulated financial exposure associated with claims requiring further action.
 
-- KPI-first executive reporting
-- Interactive payer / department / date filtering
-- Drilldown from summary to detail
-- Risk segmentation
-- Trend analysis
-- Financial-impact visualization
-- Claim-level investigation
-- Business recommendations based on analytical findings
+**Average Days in AR** — operational view of reimbursement cycle time.
 
-The dashboard was designed with executive and manager-level consumption in mind.
+**Provider Risk** — risk segmentation based on provider denial performance and claim volume.
 
----
+## Key Analytical Insights
 
-## Business Impact Framework
+- Denial performance varies across payers, making payer-level monitoring important.
+- Denial reasons can be prioritized by financial contribution rather than count alone.
+- Provider risk segmentation helps identify high-risk outliers for deeper investigation.
+- Claim-level drilldown provides traceability from aggregate KPIs to individual records.
+- Combining denial rate with claim volume and financial exposure gives a stronger prioritization framework than using a single KPI.
 
-Because the dataset is synthetic, the project does **not** claim real-world financial savings or operational improvements.
+Denial categories represented in the dashboard include **Duplicate Claim, Eligibility Expired, Non-Covered Service, Coding Mismatch, Prior Authorization, Medical Necessity, Timely Filing, and Documentation-related issues**.
 
-Instead, it demonstrates how an analyst could translate findings into actions such as:
+## Business Recommendations Framework
 
-- Prioritizing high-impact denial reasons
-- Improving prior-authorization workflows
-- Targeting coding/documentation training
-- Investigating high-risk provider groups
-- Reviewing payer-specific denial patterns
-- Focusing appeal effort on potentially recoverable claims
-
-This distinction is intentional: the project demonstrates **analytical reasoning and decision support without presenting simulated results as real client outcomes**.
-
----
-
-## Tech Stack
-
-| Area | Tools / Techniques |
+| Finding | Potential Business Action |
 |---|---|
-| Data Analysis | Python, Pandas, EDA |
-| Data Engineering | SQL, data cleaning, validation, transformations |
-| Database | Relational / star-schema design |
-| BI | Power BI Desktop |
-| Analytics | KPI analysis, trend analysis, Pareto analysis, risk segmentation |
-| Business Analysis | Root-cause analysis, stakeholder questions, recommendations |
+| High prior-authorization denials | Strengthen authorization validation before submission |
+| Coding-related denials | Target coding-quality review and training |
+| Documentation-related denials | Improve documentation completeness checks |
+| High-risk providers | Perform provider-level root-cause analysis |
+| Payer-specific denial spikes | Review payer rules and submission requirements |
+| High-value denied claims | Prioritize recoverability and appeal analysis |
 
----
+Because the dataset is synthetic, these are recommendations demonstrated by the analytical framework and **not claimed real-world savings**.
 
-## Repository Structure
+## Data Quality & Validation
 
-A recommended structure for the project is:
+Data quality is treated as part of the analytical solution.
 
-```text
-MyProject/
-├── data/
-│   └── synthetic claims datasets
-├── sql/
-│   ├── data_quality/
-│   ├── transformations/
-│   ├── analytical_queries/
-│   └── views/
-├── python/
-│   ├── data_generation/
-│   ├── preprocessing/
-│   └── analysis/
-├── powerbi/
-│   └── dashboard / screenshots
-├── docs/
-│   └── project documentation
-└── README.md
+Checks include:
+
+- Duplicate detection
+- Missing-value analysis
+- Status consistency
+- Payer/provider relationship validation
+- Numeric validation of claim amounts
+- Denial-reason consistency
+- Aggregate reconciliation between claim-level and dashboard totals
+
+## SQL Portfolio Example
+
+```sql
+-- Example: payer-level denial rate
+SELECT
+    payer_name,
+    COUNT(*) AS total_claims,
+    SUM(CASE WHEN status_clean = 'Denied' THEN 1 ELSE 0 END) AS denied_claims,
+    CAST(
+        100.0 * SUM(CASE WHEN status_clean = 'Denied' THEN 1 ELSE 0 END)
+        / NULLIF(COUNT(*), 0)
+        AS DECIMAL(10,2)
+    ) AS denial_rate
+FROM claims
+GROUP BY payer_name
+ORDER BY denial_rate DESC;
 ```
 
-Actual files may differ from this logical structure depending on the current repository contents.
+Other interview-relevant patterns covered by the analytical design include CTEs, `RANK()`, `DENSE_RANK()`, `LAG()`, conditional aggregation, running totals, Pareto analysis, and data-quality validation.
 
----
+## Power BI Design
+
+The report follows a management-reporting pattern:
+
+**Executive KPI → Trend → Driver Analysis → Segment Drilldown → Claim-Level Investigation**
+
+This allows a stakeholder to move from:
+
+**What is happening? → Where is it happening? → Which records should we investigate?**
+
+## Portfolio Architecture
+
+```text
+Synthetic Claims Data
+        │
+        ▼
+Data Cleaning & Validation
+        │
+        ├──────────────► Python / Pandas
+        │
+        ▼
+SQL Analytical Layer
+        │
+        ├── KPI calculations
+        ├── Payer analysis
+        ├── Provider analysis
+        ├── Denial-driver analysis
+        └── Data-quality checks
+        │
+        ▼
+Power BI Reporting Layer
+        │
+        ├── Executive Summary
+        ├── Payer Drilldown
+        ├── Claim Detail
+        └── Provider Risk
+        │
+        ▼
+Business Insights & Recommendations
+```
+
+## Technology Stack
+
+| Category | Tools |
+|---|---|
+| BI | Power BI Desktop |
+| Querying | SQL |
+| Programming | Python, Pandas |
+| Analytics | KPI analysis, EDA, trend analysis, Pareto analysis, risk segmentation |
+| Data Quality | Validation, reconciliation, duplicate/null checks |
+| Business Analysis | Root-cause analysis, prioritization, decision support |
 
 ## Interview Talking Points
 
-This project can be discussed in interviews from four angles:
-
 ### Data Analyst
 
-How did you identify the major denial drivers and convert claim-level data into actionable KPIs?
+> I started with claim-level data, established data-quality and business-rule checks, calculated core KPIs in the analytical layer, and designed Power BI views that allow stakeholders to move from executive metrics into payer, provider, and claim-level analysis.
 
 ### SQL
 
-How did you structure joins, CTEs, window functions, aggregations, and data-quality checks?
+> I used joins, CTEs, conditional aggregation, window functions, ranking, trend analysis and reconciliation checks to create reliable analytical outputs.
 
 ### Power BI
 
-Why did you choose KPI cards, trend analysis, payer drilldowns, and provider-risk segmentation?
+> Different stakeholders need different levels of detail. Executives need KPIs and trends, managers need payer/provider comparisons, and analysts need claim-level records for investigation.
 
-### Business / Consulting
+### Business Analysis
 
-If a Revenue Cycle Manager asked where to focus first, how would you prioritize denial reasons, payers, providers, and departments based on financial impact and denial volume?
+> For a high-denial provider, I would segment denials by reason, payer, department and financial impact, identify the dominant drivers, and then recommend a targeted operational intervention.
 
----
+## Repository Scope
 
-## Important Note on Data
+This repository focuses on the **analytical methodology, dashboard design, business requirements, metrics, SQL approach, and portfolio documentation**. Underlying datasets or executable notebooks/scripts should only be published when they are synthetic and safe to share.
 
-**All healthcare data in this portfolio project is synthetic and created for learning, demonstration, and interview purposes.**
+This keeps the portfolio useful for recruiters while avoiding exposure of real employer/client data.
 
-It does not contain real patient information, real claims, or confidential employer/client data.
+## Data Disclaimer
 
----
+**All healthcare data and financial figures represented in this project are synthetic and intended only for learning, portfolio demonstration, and interview discussion.**
 
-## Portfolio Focus
+No real patient information, confidential employer information, or production healthcare-system data is included.
+
+## Portfolio Positioning
 
 This project demonstrates the ability to combine:
 
-**SQL + Python + Power BI + Data Quality + Business Analysis + Storytelling**
+**SQL + Python + Power BI + Data Quality + Business Analysis + Data Storytelling**
 
 into an end-to-end analytics solution rather than presenting a dashboard as an isolated visualization exercise.
