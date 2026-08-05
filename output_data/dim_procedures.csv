@@ -1,0 +1,1201 @@
+procedure_code,procedure_name,department,category,standard_cost
+CPT10000,Diagnostic Imaging Procedure 0,Neurology,Diagnostic Imaging,1421.98
+CPT10001,Surgery - Minor Procedure 1,General Surgery,Surgery - Minor,4156.98
+CPT10002,Chemotherapy Session Procedure 2,Cardiology,Chemotherapy Session,1555.56
+CPT10003,Lab Test Procedure 3,Neurology,Lab Test,379.47
+CPT10004,Diagnostic Imaging Procedure 4,Cardiology,Diagnostic Imaging,2129.09
+CPT10005,Chemotherapy Session Procedure 5,Oncology,Chemotherapy Session,3513.58
+CPT10006,Surgery - Major Procedure 6,Obstetrics,Surgery - Major,8087.5
+CPT10007,Surgery - Minor Procedure 7,General Surgery,Surgery - Minor,1683.41
+CPT10008,Physical Therapy Procedure 8,Obstetrics,Physical Therapy,90.47
+CPT10009,Surgery - Minor Procedure 9,General Surgery,Surgery - Minor,1441.08
+CPT10010,Surgery - Major Procedure 10,Obstetrics,Surgery - Major,25742.47
+CPT10011,Surgery - Major Procedure 11,Neurology,Surgery - Major,14833.9
+CPT10012,Surgery - Major Procedure 12,Obstetrics,Surgery - Major,19325.59
+CPT10013,Emergency Visit Procedure 13,Emergency Medicine,Emergency Visit,3465.37
+CPT10014,Lab Test Procedure 14,General Surgery,Lab Test,280.04
+CPT10015,Consultation Procedure 15,Cardiology,Consultation,335.97
+CPT10016,Surgery - Minor Procedure 16,General Surgery,Surgery - Minor,1541.29
+CPT10017,Chemotherapy Session Procedure 17,Oncology,Chemotherapy Session,4180.69
+CPT10018,Emergency Visit Procedure 18,Radiology,Emergency Visit,2030.61
+CPT10019,Chemotherapy Session Procedure 19,Emergency Medicine,Chemotherapy Session,1798.71
+CPT10020,Consultation Procedure 20,Pediatrics,Consultation,76.15
+CPT10021,Consultation Procedure 21,General Surgery,Consultation,259.37
+CPT10022,Physical Therapy Procedure 22,Orthopedics,Physical Therapy,214.04
+CPT10023,Surgery - Major Procedure 23,Neurology,Surgery - Major,21431.55
+CPT10024,Lab Test Procedure 24,Neurology,Lab Test,206.06
+CPT10025,Physical Therapy Procedure 25,Obstetrics,Physical Therapy,159.71
+CPT10026,Diagnostic Imaging Procedure 26,Obstetrics,Diagnostic Imaging,206.41
+CPT10027,Emergency Visit Procedure 27,Neurology,Emergency Visit,1306.73
+CPT10028,Emergency Visit Procedure 28,Internal Medicine,Emergency Visit,784.37
+CPT10029,Lab Test Procedure 29,Emergency Medicine,Lab Test,57.4
+CPT10030,Consultation Procedure 30,Emergency Medicine,Consultation,338.1
+CPT10031,Chemotherapy Session Procedure 31,Cardiology,Chemotherapy Session,5875.01
+CPT10032,Emergency Visit Procedure 32,General Surgery,Emergency Visit,2604.57
+CPT10033,Lab Test Procedure 33,Pediatrics,Lab Test,139.84
+CPT10034,Emergency Visit Procedure 34,Neurology,Emergency Visit,1497.39
+CPT10035,Emergency Visit Procedure 35,General Surgery,Emergency Visit,981.85
+CPT10036,Surgery - Major Procedure 36,Emergency Medicine,Surgery - Major,8878.63
+CPT10037,Diagnostic Imaging Procedure 37,Oncology,Diagnostic Imaging,570.72
+CPT10038,Surgery - Major Procedure 38,Neurology,Surgery - Major,36900.56
+CPT10039,Diagnostic Imaging Procedure 39,General Surgery,Diagnostic Imaging,1742.23
+CPT10040,Emergency Visit Procedure 40,Emergency Medicine,Emergency Visit,2004.87
+CPT10041,Physical Therapy Procedure 41,Radiology,Physical Therapy,174.02
+CPT10042,Chemotherapy Session Procedure 42,Emergency Medicine,Chemotherapy Session,8394.99
+CPT10043,Consultation Procedure 43,Obstetrics,Consultation,95.0
+CPT10044,Emergency Visit Procedure 44,Orthopedics,Emergency Visit,1125.98
+CPT10045,Diagnostic Imaging Procedure 45,Internal Medicine,Diagnostic Imaging,972.35
+CPT10046,Diagnostic Imaging Procedure 46,Internal Medicine,Diagnostic Imaging,1988.7
+CPT10047,Diagnostic Imaging Procedure 47,Obstetrics,Diagnostic Imaging,2482.41
+CPT10048,Emergency Visit Procedure 48,Obstetrics,Emergency Visit,994.21
+CPT10049,Lab Test Procedure 49,Neurology,Lab Test,352.24
+CPT10050,Physical Therapy Procedure 50,Radiology,Physical Therapy,259.35
+CPT10051,Lab Test Procedure 51,Radiology,Lab Test,105.37
+CPT10052,Consultation Procedure 52,Neurology,Consultation,184.82
+CPT10053,Emergency Visit Procedure 53,General Surgery,Emergency Visit,1551.92
+CPT10054,Diagnostic Imaging Procedure 54,Neurology,Diagnostic Imaging,2448.82
+CPT10055,Physical Therapy Procedure 55,Pediatrics,Physical Therapy,103.41
+CPT10056,Physical Therapy Procedure 56,Pediatrics,Physical Therapy,251.8
+CPT10057,Surgery - Minor Procedure 57,Internal Medicine,Surgery - Minor,2537.8
+CPT10058,Consultation Procedure 58,Emergency Medicine,Consultation,275.99
+CPT10059,Chemotherapy Session Procedure 59,Neurology,Chemotherapy Session,4476.09
+CPT10060,Chemotherapy Session Procedure 60,Neurology,Chemotherapy Session,5711.21
+CPT10061,Physical Therapy Procedure 61,General Surgery,Physical Therapy,259.83
+CPT10062,Emergency Visit Procedure 62,Cardiology,Emergency Visit,2853.75
+CPT10063,Diagnostic Imaging Procedure 63,Internal Medicine,Diagnostic Imaging,2186.09
+CPT10064,Diagnostic Imaging Procedure 64,Internal Medicine,Diagnostic Imaging,290.1
+CPT10065,Physical Therapy Procedure 65,Internal Medicine,Physical Therapy,226.09
+CPT10066,Lab Test Procedure 66,Emergency Medicine,Lab Test,73.2
+CPT10067,Consultation Procedure 67,Obstetrics,Consultation,189.35
+CPT10068,Diagnostic Imaging Procedure 68,Oncology,Diagnostic Imaging,1439.18
+CPT10069,Physical Therapy Procedure 69,Cardiology,Physical Therapy,156.66
+CPT10070,Diagnostic Imaging Procedure 70,Emergency Medicine,Diagnostic Imaging,1371.09
+CPT10071,Chemotherapy Session Procedure 71,Pediatrics,Chemotherapy Session,8972.91
+CPT10072,Physical Therapy Procedure 72,General Surgery,Physical Therapy,92.45
+CPT10073,Consultation Procedure 73,Obstetrics,Consultation,260.75
+CPT10074,Physical Therapy Procedure 74,Pediatrics,Physical Therapy,155.04
+CPT10075,Surgery - Minor Procedure 75,Obstetrics,Surgery - Minor,1491.65
+CPT10076,Physical Therapy Procedure 76,Radiology,Physical Therapy,98.1
+CPT10077,Physical Therapy Procedure 77,Internal Medicine,Physical Therapy,287.83
+CPT10078,Emergency Visit Procedure 78,Obstetrics,Emergency Visit,3102.68
+CPT10079,Chemotherapy Session Procedure 79,Orthopedics,Chemotherapy Session,8274.93
+CPT10080,Consultation Procedure 80,Internal Medicine,Consultation,347.67
+CPT10081,Emergency Visit Procedure 81,Internal Medicine,Emergency Visit,887.44
+CPT10082,Physical Therapy Procedure 82,General Surgery,Physical Therapy,145.31
+CPT10083,Consultation Procedure 83,Cardiology,Consultation,259.04
+CPT10084,Surgery - Minor Procedure 84,Pediatrics,Surgery - Minor,3315.77
+CPT10085,Consultation Procedure 85,Obstetrics,Consultation,190.06
+CPT10086,Diagnostic Imaging Procedure 86,Obstetrics,Diagnostic Imaging,990.86
+CPT10087,Emergency Visit Procedure 87,Radiology,Emergency Visit,2159.48
+CPT10088,Consultation Procedure 88,Internal Medicine,Consultation,233.29
+CPT10089,Chemotherapy Session Procedure 89,Neurology,Chemotherapy Session,2459.37
+CPT10090,Surgery - Minor Procedure 90,Oncology,Surgery - Minor,3253.05
+CPT10091,Surgery - Major Procedure 91,Neurology,Surgery - Major,27138.87
+CPT10092,Physical Therapy Procedure 92,Obstetrics,Physical Therapy,196.87
+CPT10093,Consultation Procedure 93,Neurology,Consultation,132.78
+CPT10094,Physical Therapy Procedure 94,General Surgery,Physical Therapy,238.15
+CPT10095,Lab Test Procedure 95,Orthopedics,Lab Test,29.58
+CPT10096,Diagnostic Imaging Procedure 96,Obstetrics,Diagnostic Imaging,983.85
+CPT10097,Emergency Visit Procedure 97,Obstetrics,Emergency Visit,2774.7
+CPT10098,Diagnostic Imaging Procedure 98,Orthopedics,Diagnostic Imaging,1475.15
+CPT10099,Lab Test Procedure 99,Pediatrics,Lab Test,119.24
+CPT10100,Lab Test Procedure 100,Orthopedics,Lab Test,284.08
+CPT10101,Emergency Visit Procedure 101,Neurology,Emergency Visit,2072.39
+CPT10102,Consultation Procedure 102,General Surgery,Consultation,293.97
+CPT10103,Lab Test Procedure 103,Radiology,Lab Test,299.31
+CPT10104,Surgery - Major Procedure 104,Pediatrics,Surgery - Major,29404.32
+CPT10105,Physical Therapy Procedure 105,Emergency Medicine,Physical Therapy,177.16
+CPT10106,Physical Therapy Procedure 106,Radiology,Physical Therapy,91.96
+CPT10107,Surgery - Minor Procedure 107,Cardiology,Surgery - Minor,2158.93
+CPT10108,Chemotherapy Session Procedure 108,Cardiology,Chemotherapy Session,4468.98
+CPT10109,Lab Test Procedure 109,Cardiology,Lab Test,247.73
+CPT10110,Lab Test Procedure 110,Cardiology,Lab Test,215.21
+CPT10111,Surgery - Major Procedure 111,General Surgery,Surgery - Major,16527.38
+CPT10112,Diagnostic Imaging Procedure 112,Radiology,Diagnostic Imaging,165.19
+CPT10113,Diagnostic Imaging Procedure 113,Internal Medicine,Diagnostic Imaging,1316.16
+CPT10114,Physical Therapy Procedure 114,Oncology,Physical Therapy,128.55
+CPT10115,Physical Therapy Procedure 115,Pediatrics,Physical Therapy,236.31
+CPT10116,Consultation Procedure 116,Emergency Medicine,Consultation,81.59
+CPT10117,Emergency Visit Procedure 117,Neurology,Emergency Visit,2129.93
+CPT10118,Chemotherapy Session Procedure 118,Obstetrics,Chemotherapy Session,8543.5
+CPT10119,Surgery - Major Procedure 119,Cardiology,Surgery - Major,11976.37
+CPT10120,Emergency Visit Procedure 120,Emergency Medicine,Emergency Visit,1756.44
+CPT10121,Emergency Visit Procedure 121,Obstetrics,Emergency Visit,501.69
+CPT10122,Surgery - Minor Procedure 122,Oncology,Surgery - Minor,4053.55
+CPT10123,Emergency Visit Procedure 123,Emergency Medicine,Emergency Visit,2016.75
+CPT10124,Surgery - Minor Procedure 124,Radiology,Surgery - Minor,2918.3
+CPT10125,Emergency Visit Procedure 125,Emergency Medicine,Emergency Visit,1920.54
+CPT10126,Surgery - Major Procedure 126,Cardiology,Surgery - Major,40862.99
+CPT10127,Surgery - Minor Procedure 127,Oncology,Surgery - Minor,1820.73
+CPT10128,Diagnostic Imaging Procedure 128,Neurology,Diagnostic Imaging,203.03
+CPT10129,Surgery - Minor Procedure 129,Internal Medicine,Surgery - Minor,5280.66
+CPT10130,Surgery - Minor Procedure 130,Orthopedics,Surgery - Minor,3801.01
+CPT10131,Surgery - Major Procedure 131,Cardiology,Surgery - Major,40626.34
+CPT10132,Surgery - Major Procedure 132,Obstetrics,Surgery - Major,28877.81
+CPT10133,Surgery - Minor Procedure 133,Oncology,Surgery - Minor,5012.84
+CPT10134,Chemotherapy Session Procedure 134,Radiology,Chemotherapy Session,4551.45
+CPT10135,Lab Test Procedure 135,General Surgery,Lab Test,304.95
+CPT10136,Chemotherapy Session Procedure 136,Oncology,Chemotherapy Session,8321.72
+CPT10137,Surgery - Major Procedure 137,Obstetrics,Surgery - Major,27884.92
+CPT10138,Chemotherapy Session Procedure 138,Orthopedics,Chemotherapy Session,2610.12
+CPT10139,Chemotherapy Session Procedure 139,Orthopedics,Chemotherapy Session,3296.62
+CPT10140,Consultation Procedure 140,Pediatrics,Consultation,129.63
+CPT10141,Consultation Procedure 141,Internal Medicine,Consultation,142.89
+CPT10142,Diagnostic Imaging Procedure 142,Obstetrics,Diagnostic Imaging,870.08
+CPT10143,Emergency Visit Procedure 143,Orthopedics,Emergency Visit,2031.94
+CPT10144,Surgery - Minor Procedure 144,Pediatrics,Surgery - Minor,3857.56
+CPT10145,Lab Test Procedure 145,Pediatrics,Lab Test,182.07
+CPT10146,Diagnostic Imaging Procedure 146,Pediatrics,Diagnostic Imaging,1596.24
+CPT10147,Surgery - Minor Procedure 147,Oncology,Surgery - Minor,1224.19
+CPT10148,Chemotherapy Session Procedure 148,Pediatrics,Chemotherapy Session,1884.75
+CPT10149,Surgery - Major Procedure 149,Cardiology,Surgery - Major,11873.18
+CPT10150,Consultation Procedure 150,Obstetrics,Consultation,217.47
+CPT10151,Physical Therapy Procedure 151,Cardiology,Physical Therapy,111.36
+CPT10152,Lab Test Procedure 152,General Surgery,Lab Test,127.65
+CPT10153,Chemotherapy Session Procedure 153,Orthopedics,Chemotherapy Session,4322.44
+CPT10154,Physical Therapy Procedure 154,Internal Medicine,Physical Therapy,254.85
+CPT10155,Consultation Procedure 155,Pediatrics,Consultation,78.81
+CPT10156,Chemotherapy Session Procedure 156,Radiology,Chemotherapy Session,6265.15
+CPT10157,Emergency Visit Procedure 157,Radiology,Emergency Visit,2407.29
+CPT10158,Emergency Visit Procedure 158,Orthopedics,Emergency Visit,2835.56
+CPT10159,Physical Therapy Procedure 159,General Surgery,Physical Therapy,283.86
+CPT10160,Surgery - Major Procedure 160,Radiology,Surgery - Major,5805.51
+CPT10161,Chemotherapy Session Procedure 161,Cardiology,Chemotherapy Session,2399.51
+CPT10162,Surgery - Minor Procedure 162,Emergency Medicine,Surgery - Minor,5408.09
+CPT10163,Chemotherapy Session Procedure 163,Oncology,Chemotherapy Session,4776.44
+CPT10164,Surgery - Major Procedure 164,Neurology,Surgery - Major,27583.63
+CPT10165,Chemotherapy Session Procedure 165,Radiology,Chemotherapy Session,6371.61
+CPT10166,Physical Therapy Procedure 166,Internal Medicine,Physical Therapy,222.98
+CPT10167,Surgery - Major Procedure 167,Pediatrics,Surgery - Major,42269.62
+CPT10168,Consultation Procedure 168,Internal Medicine,Consultation,349.16
+CPT10169,Lab Test Procedure 169,Obstetrics,Lab Test,293.66
+CPT10170,Surgery - Major Procedure 170,Oncology,Surgery - Major,16488.85
+CPT10171,Chemotherapy Session Procedure 171,Cardiology,Chemotherapy Session,8062.07
+CPT10172,Consultation Procedure 172,General Surgery,Consultation,88.54
+CPT10173,Lab Test Procedure 173,Oncology,Lab Test,107.81
+CPT10174,Emergency Visit Procedure 174,Neurology,Emergency Visit,3161.37
+CPT10175,Surgery - Minor Procedure 175,Emergency Medicine,Surgery - Minor,2132.2
+CPT10176,Physical Therapy Procedure 176,Radiology,Physical Therapy,112.96
+CPT10177,Chemotherapy Session Procedure 177,General Surgery,Chemotherapy Session,2277.38
+CPT10178,Chemotherapy Session Procedure 178,General Surgery,Chemotherapy Session,7901.07
+CPT10179,Emergency Visit Procedure 179,Radiology,Emergency Visit,1850.19
+CPT10180,Surgery - Minor Procedure 180,Radiology,Surgery - Minor,4309.44
+CPT10181,Emergency Visit Procedure 181,Radiology,Emergency Visit,988.92
+CPT10182,Diagnostic Imaging Procedure 182,Radiology,Diagnostic Imaging,1931.39
+CPT10183,Emergency Visit Procedure 183,Radiology,Emergency Visit,2708.02
+CPT10184,Consultation Procedure 184,General Surgery,Consultation,160.96
+CPT10185,Lab Test Procedure 185,Orthopedics,Lab Test,176.06
+CPT10186,Chemotherapy Session Procedure 186,Orthopedics,Chemotherapy Session,2835.58
+CPT10187,Emergency Visit Procedure 187,Internal Medicine,Emergency Visit,3422.65
+CPT10188,Chemotherapy Session Procedure 188,Orthopedics,Chemotherapy Session,6235.7
+CPT10189,Surgery - Major Procedure 189,Neurology,Surgery - Major,42381.76
+CPT10190,Surgery - Minor Procedure 190,Orthopedics,Surgery - Minor,2377.6
+CPT10191,Emergency Visit Procedure 191,General Surgery,Emergency Visit,2780.24
+CPT10192,Lab Test Procedure 192,Radiology,Lab Test,311.03
+CPT10193,Consultation Procedure 193,Pediatrics,Consultation,265.21
+CPT10194,Diagnostic Imaging Procedure 194,Pediatrics,Diagnostic Imaging,2419.25
+CPT10195,Chemotherapy Session Procedure 195,Neurology,Chemotherapy Session,4269.73
+CPT10196,Surgery - Minor Procedure 196,Obstetrics,Surgery - Minor,1479.73
+CPT10197,Physical Therapy Procedure 197,General Surgery,Physical Therapy,221.21
+CPT10198,Lab Test Procedure 198,Cardiology,Lab Test,297.14
+CPT10199,Physical Therapy Procedure 199,Oncology,Physical Therapy,198.01
+CPT10200,Lab Test Procedure 200,Internal Medicine,Lab Test,98.59
+CPT10201,Lab Test Procedure 201,Cardiology,Lab Test,211.69
+CPT10202,Consultation Procedure 202,General Surgery,Consultation,160.85
+CPT10203,Consultation Procedure 203,Orthopedics,Consultation,192.55
+CPT10204,Consultation Procedure 204,Radiology,Consultation,252.44
+CPT10205,Emergency Visit Procedure 205,Cardiology,Emergency Visit,2659.21
+CPT10206,Surgery - Major Procedure 206,Oncology,Surgery - Major,14288.99
+CPT10207,Lab Test Procedure 207,Obstetrics,Lab Test,174.02
+CPT10208,Surgery - Minor Procedure 208,Pediatrics,Surgery - Minor,2199.64
+CPT10209,Physical Therapy Procedure 209,Obstetrics,Physical Therapy,107.67
+CPT10210,Consultation Procedure 210,Oncology,Consultation,290.43
+CPT10211,Emergency Visit Procedure 211,Radiology,Emergency Visit,3200.53
+CPT10212,Consultation Procedure 212,Orthopedics,Consultation,176.81
+CPT10213,Physical Therapy Procedure 213,Oncology,Physical Therapy,240.31
+CPT10214,Physical Therapy Procedure 214,Internal Medicine,Physical Therapy,275.28
+CPT10215,Chemotherapy Session Procedure 215,Oncology,Chemotherapy Session,7799.77
+CPT10216,Lab Test Procedure 216,General Surgery,Lab Test,89.47
+CPT10217,Consultation Procedure 217,Orthopedics,Consultation,337.98
+CPT10218,Physical Therapy Procedure 218,Radiology,Physical Therapy,150.4
+CPT10219,Surgery - Major Procedure 219,Pediatrics,Surgery - Major,18569.63
+CPT10220,Surgery - Major Procedure 220,Pediatrics,Surgery - Major,7497.25
+CPT10221,Consultation Procedure 221,Oncology,Consultation,208.7
+CPT10222,Emergency Visit Procedure 222,General Surgery,Emergency Visit,559.74
+CPT10223,Physical Therapy Procedure 223,Cardiology,Physical Therapy,119.65
+CPT10224,Chemotherapy Session Procedure 224,Obstetrics,Chemotherapy Session,3672.15
+CPT10225,Lab Test Procedure 225,Obstetrics,Lab Test,327.35
+CPT10226,Lab Test Procedure 226,Obstetrics,Lab Test,352.69
+CPT10227,Emergency Visit Procedure 227,Cardiology,Emergency Visit,1198.14
+CPT10228,Chemotherapy Session Procedure 228,General Surgery,Chemotherapy Session,7897.85
+CPT10229,Lab Test Procedure 229,Obstetrics,Lab Test,345.75
+CPT10230,Chemotherapy Session Procedure 230,Internal Medicine,Chemotherapy Session,7164.28
+CPT10231,Diagnostic Imaging Procedure 231,Cardiology,Diagnostic Imaging,494.73
+CPT10232,Consultation Procedure 232,Cardiology,Consultation,264.84
+CPT10233,Lab Test Procedure 233,Radiology,Lab Test,379.11
+CPT10234,Surgery - Major Procedure 234,Radiology,Surgery - Major,32301.62
+CPT10235,Physical Therapy Procedure 235,Orthopedics,Physical Therapy,139.59
+CPT10236,Chemotherapy Session Procedure 236,Internal Medicine,Chemotherapy Session,5104.52
+CPT10237,Chemotherapy Session Procedure 237,Internal Medicine,Chemotherapy Session,6236.66
+CPT10238,Surgery - Minor Procedure 238,Orthopedics,Surgery - Minor,3454.97
+CPT10239,Emergency Visit Procedure 239,Internal Medicine,Emergency Visit,595.84
+CPT10240,Surgery - Minor Procedure 240,Neurology,Surgery - Minor,2422.73
+CPT10241,Lab Test Procedure 241,Emergency Medicine,Lab Test,324.91
+CPT10242,Surgery - Minor Procedure 242,Obstetrics,Surgery - Minor,5279.37
+CPT10243,Surgery - Minor Procedure 243,Radiology,Surgery - Minor,1513.96
+CPT10244,Diagnostic Imaging Procedure 244,Orthopedics,Diagnostic Imaging,2388.11
+CPT10245,Chemotherapy Session Procedure 245,Orthopedics,Chemotherapy Session,3764.82
+CPT10246,Surgery - Major Procedure 246,Internal Medicine,Surgery - Major,31492.55
+CPT10247,Emergency Visit Procedure 247,Cardiology,Emergency Visit,2681.02
+CPT10248,Surgery - Major Procedure 248,Pediatrics,Surgery - Major,37477.85
+CPT10249,Diagnostic Imaging Procedure 249,Oncology,Diagnostic Imaging,2372.51
+CPT10250,Diagnostic Imaging Procedure 250,Oncology,Diagnostic Imaging,885.36
+CPT10251,Surgery - Minor Procedure 251,Orthopedics,Surgery - Minor,5264.23
+CPT10252,Consultation Procedure 252,Obstetrics,Consultation,111.21
+CPT10253,Chemotherapy Session Procedure 253,Neurology,Chemotherapy Session,6699.32
+CPT10254,Physical Therapy Procedure 254,Obstetrics,Physical Therapy,238.07
+CPT10255,Chemotherapy Session Procedure 255,Orthopedics,Chemotherapy Session,6486.24
+CPT10256,Physical Therapy Procedure 256,Obstetrics,Physical Therapy,120.56
+CPT10257,Surgery - Minor Procedure 257,Radiology,Surgery - Minor,5339.82
+CPT10258,Physical Therapy Procedure 258,Obstetrics,Physical Therapy,100.53
+CPT10259,Diagnostic Imaging Procedure 259,Internal Medicine,Diagnostic Imaging,276.04
+CPT10260,Surgery - Major Procedure 260,Internal Medicine,Surgery - Major,33698.6
+CPT10261,Physical Therapy Procedure 261,Neurology,Physical Therapy,174.11
+CPT10262,Chemotherapy Session Procedure 262,Radiology,Chemotherapy Session,7822.96
+CPT10263,Emergency Visit Procedure 263,Pediatrics,Emergency Visit,1465.21
+CPT10264,Surgery - Minor Procedure 264,Cardiology,Surgery - Minor,1675.05
+CPT10265,Consultation Procedure 265,Radiology,Consultation,305.02
+CPT10266,Surgery - Minor Procedure 266,General Surgery,Surgery - Minor,3654.33
+CPT10267,Lab Test Procedure 267,Emergency Medicine,Lab Test,91.89
+CPT10268,Surgery - Minor Procedure 268,Orthopedics,Surgery - Minor,4546.0
+CPT10269,Diagnostic Imaging Procedure 269,General Surgery,Diagnostic Imaging,1351.12
+CPT10270,Surgery - Major Procedure 270,Neurology,Surgery - Major,29172.52
+CPT10271,Surgery - Major Procedure 271,General Surgery,Surgery - Major,23435.93
+CPT10272,Emergency Visit Procedure 272,Internal Medicine,Emergency Visit,2934.74
+CPT10273,Physical Therapy Procedure 273,Obstetrics,Physical Therapy,259.1
+CPT10274,Diagnostic Imaging Procedure 274,Cardiology,Diagnostic Imaging,1817.06
+CPT10275,Lab Test Procedure 275,Oncology,Lab Test,60.05
+CPT10276,Diagnostic Imaging Procedure 276,Orthopedics,Diagnostic Imaging,2121.31
+CPT10277,Surgery - Minor Procedure 277,Oncology,Surgery - Minor,4289.27
+CPT10278,Diagnostic Imaging Procedure 278,Obstetrics,Diagnostic Imaging,1788.01
+CPT10279,Diagnostic Imaging Procedure 279,Internal Medicine,Diagnostic Imaging,1003.01
+CPT10280,Emergency Visit Procedure 280,Internal Medicine,Emergency Visit,3101.62
+CPT10281,Lab Test Procedure 281,Obstetrics,Lab Test,295.64
+CPT10282,Surgery - Minor Procedure 282,Orthopedics,Surgery - Minor,1385.47
+CPT10283,Consultation Procedure 283,Oncology,Consultation,187.14
+CPT10284,Emergency Visit Procedure 284,Radiology,Emergency Visit,3125.06
+CPT10285,Consultation Procedure 285,Internal Medicine,Consultation,87.98
+CPT10286,Emergency Visit Procedure 286,Oncology,Emergency Visit,3372.67
+CPT10287,Surgery - Major Procedure 287,Pediatrics,Surgery - Major,32166.5
+CPT10288,Chemotherapy Session Procedure 288,Oncology,Chemotherapy Session,6124.73
+CPT10289,Emergency Visit Procedure 289,Pediatrics,Emergency Visit,1092.85
+CPT10290,Physical Therapy Procedure 290,Pediatrics,Physical Therapy,119.71
+CPT10291,Diagnostic Imaging Procedure 291,Internal Medicine,Diagnostic Imaging,2363.84
+CPT10292,Surgery - Major Procedure 292,Orthopedics,Surgery - Major,16930.9
+CPT10293,Lab Test Procedure 293,Neurology,Lab Test,314.69
+CPT10294,Consultation Procedure 294,Internal Medicine,Consultation,183.11
+CPT10295,Chemotherapy Session Procedure 295,Orthopedics,Chemotherapy Session,2286.18
+CPT10296,Chemotherapy Session Procedure 296,Orthopedics,Chemotherapy Session,1283.58
+CPT10297,Emergency Visit Procedure 297,General Surgery,Emergency Visit,1996.05
+CPT10298,Diagnostic Imaging Procedure 298,Obstetrics,Diagnostic Imaging,2443.08
+CPT10299,Lab Test Procedure 299,Obstetrics,Lab Test,160.27
+CPT10300,Physical Therapy Procedure 300,Obstetrics,Physical Therapy,145.73
+CPT10301,Lab Test Procedure 301,Emergency Medicine,Lab Test,150.75
+CPT10302,Diagnostic Imaging Procedure 302,Internal Medicine,Diagnostic Imaging,1373.28
+CPT10303,Physical Therapy Procedure 303,Orthopedics,Physical Therapy,165.76
+CPT10304,Lab Test Procedure 304,General Surgery,Lab Test,354.37
+CPT10305,Physical Therapy Procedure 305,Pediatrics,Physical Therapy,181.32
+CPT10306,Emergency Visit Procedure 306,Neurology,Emergency Visit,1875.6
+CPT10307,Emergency Visit Procedure 307,Neurology,Emergency Visit,656.63
+CPT10308,Diagnostic Imaging Procedure 308,Pediatrics,Diagnostic Imaging,2459.44
+CPT10309,Diagnostic Imaging Procedure 309,Oncology,Diagnostic Imaging,737.44
+CPT10310,Physical Therapy Procedure 310,Oncology,Physical Therapy,77.61
+CPT10311,Surgery - Minor Procedure 311,Obstetrics,Surgery - Minor,4248.36
+CPT10312,Surgery - Major Procedure 312,Internal Medicine,Surgery - Major,28814.65
+CPT10313,Chemotherapy Session Procedure 313,Emergency Medicine,Chemotherapy Session,4438.14
+CPT10314,Lab Test Procedure 314,General Surgery,Lab Test,180.43
+CPT10315,Lab Test Procedure 315,Neurology,Lab Test,318.32
+CPT10316,Surgery - Minor Procedure 316,Obstetrics,Surgery - Minor,1817.71
+CPT10317,Surgery - Minor Procedure 317,Cardiology,Surgery - Minor,5065.32
+CPT10318,Surgery - Minor Procedure 318,Obstetrics,Surgery - Minor,4173.48
+CPT10319,Consultation Procedure 319,Cardiology,Consultation,190.22
+CPT10320,Consultation Procedure 320,Radiology,Consultation,200.96
+CPT10321,Physical Therapy Procedure 321,Orthopedics,Physical Therapy,121.6
+CPT10322,Consultation Procedure 322,Pediatrics,Consultation,281.83
+CPT10323,Emergency Visit Procedure 323,Orthopedics,Emergency Visit,1892.49
+CPT10324,Emergency Visit Procedure 324,Obstetrics,Emergency Visit,1258.82
+CPT10325,Diagnostic Imaging Procedure 325,Orthopedics,Diagnostic Imaging,1550.72
+CPT10326,Chemotherapy Session Procedure 326,General Surgery,Chemotherapy Session,8966.73
+CPT10327,Physical Therapy Procedure 327,Radiology,Physical Therapy,164.46
+CPT10328,Chemotherapy Session Procedure 328,Emergency Medicine,Chemotherapy Session,8381.39
+CPT10329,Lab Test Procedure 329,Radiology,Lab Test,151.11
+CPT10330,Surgery - Major Procedure 330,Neurology,Surgery - Major,7189.31
+CPT10331,Diagnostic Imaging Procedure 331,General Surgery,Diagnostic Imaging,629.97
+CPT10332,Lab Test Procedure 332,Orthopedics,Lab Test,179.1
+CPT10333,Lab Test Procedure 333,Emergency Medicine,Lab Test,103.46
+CPT10334,Physical Therapy Procedure 334,Orthopedics,Physical Therapy,60.05
+CPT10335,Surgery - Minor Procedure 335,Internal Medicine,Surgery - Minor,5558.01
+CPT10336,Surgery - Minor Procedure 336,Internal Medicine,Surgery - Minor,5188.17
+CPT10337,Chemotherapy Session Procedure 337,Oncology,Chemotherapy Session,6989.88
+CPT10338,Diagnostic Imaging Procedure 338,Radiology,Diagnostic Imaging,544.36
+CPT10339,Surgery - Minor Procedure 339,Emergency Medicine,Surgery - Minor,1425.89
+CPT10340,Lab Test Procedure 340,Internal Medicine,Lab Test,45.69
+CPT10341,Surgery - Minor Procedure 341,Oncology,Surgery - Minor,4564.95
+CPT10342,Consultation Procedure 342,General Surgery,Consultation,330.42
+CPT10343,Surgery - Minor Procedure 343,Emergency Medicine,Surgery - Minor,3038.79
+CPT10344,Lab Test Procedure 344,Oncology,Lab Test,65.27
+CPT10345,Chemotherapy Session Procedure 345,Pediatrics,Chemotherapy Session,5196.66
+CPT10346,Physical Therapy Procedure 346,Emergency Medicine,Physical Therapy,143.72
+CPT10347,Diagnostic Imaging Procedure 347,Obstetrics,Diagnostic Imaging,1030.84
+CPT10348,Surgery - Major Procedure 348,Oncology,Surgery - Major,29853.22
+CPT10349,Surgery - Minor Procedure 349,Orthopedics,Surgery - Minor,4537.33
+CPT10350,Emergency Visit Procedure 350,Obstetrics,Emergency Visit,564.99
+CPT10351,Emergency Visit Procedure 351,Pediatrics,Emergency Visit,317.45
+CPT10352,Chemotherapy Session Procedure 352,Internal Medicine,Chemotherapy Session,8955.78
+CPT10353,Lab Test Procedure 353,Cardiology,Lab Test,108.44
+CPT10354,Surgery - Major Procedure 354,Oncology,Surgery - Major,7153.22
+CPT10355,Surgery - Major Procedure 355,General Surgery,Surgery - Major,12595.01
+CPT10356,Consultation Procedure 356,Oncology,Consultation,85.71
+CPT10357,Surgery - Major Procedure 357,Cardiology,Surgery - Major,20672.44
+CPT10358,Emergency Visit Procedure 358,Pediatrics,Emergency Visit,2847.93
+CPT10359,Physical Therapy Procedure 359,Pediatrics,Physical Therapy,141.9
+CPT10360,Lab Test Procedure 360,Obstetrics,Lab Test,188.79
+CPT10361,Lab Test Procedure 361,Emergency Medicine,Lab Test,276.72
+CPT10362,Surgery - Minor Procedure 362,General Surgery,Surgery - Minor,3446.25
+CPT10363,Surgery - Minor Procedure 363,Obstetrics,Surgery - Minor,5279.52
+CPT10364,Surgery - Minor Procedure 364,General Surgery,Surgery - Minor,5303.39
+CPT10365,Emergency Visit Procedure 365,General Surgery,Emergency Visit,232.71
+CPT10366,Emergency Visit Procedure 366,Cardiology,Emergency Visit,2767.55
+CPT10367,Chemotherapy Session Procedure 367,Obstetrics,Chemotherapy Session,4793.72
+CPT10368,Emergency Visit Procedure 368,General Surgery,Emergency Visit,3463.17
+CPT10369,Emergency Visit Procedure 369,Neurology,Emergency Visit,1794.67
+CPT10370,Emergency Visit Procedure 370,Cardiology,Emergency Visit,3456.76
+CPT10371,Emergency Visit Procedure 371,Pediatrics,Emergency Visit,2690.08
+CPT10372,Physical Therapy Procedure 372,Cardiology,Physical Therapy,119.67
+CPT10373,Emergency Visit Procedure 373,Orthopedics,Emergency Visit,1976.7
+CPT10374,Chemotherapy Session Procedure 374,Orthopedics,Chemotherapy Session,8938.66
+CPT10375,Surgery - Major Procedure 375,General Surgery,Surgery - Major,39301.22
+CPT10376,Surgery - Major Procedure 376,Obstetrics,Surgery - Major,8894.68
+CPT10377,Consultation Procedure 377,Pediatrics,Consultation,269.25
+CPT10378,Physical Therapy Procedure 378,Cardiology,Physical Therapy,142.94
+CPT10379,Surgery - Minor Procedure 379,Obstetrics,Surgery - Minor,836.31
+CPT10380,Diagnostic Imaging Procedure 380,Cardiology,Diagnostic Imaging,1098.18
+CPT10381,Emergency Visit Procedure 381,Cardiology,Emergency Visit,974.69
+CPT10382,Consultation Procedure 382,Neurology,Consultation,300.19
+CPT10383,Diagnostic Imaging Procedure 383,Orthopedics,Diagnostic Imaging,942.73
+CPT10384,Chemotherapy Session Procedure 384,Cardiology,Chemotherapy Session,7654.68
+CPT10385,Surgery - Major Procedure 385,Neurology,Surgery - Major,5023.92
+CPT10386,Consultation Procedure 386,Orthopedics,Consultation,159.65
+CPT10387,Chemotherapy Session Procedure 387,Neurology,Chemotherapy Session,3081.09
+CPT10388,Consultation Procedure 388,Obstetrics,Consultation,139.23
+CPT10389,Lab Test Procedure 389,Emergency Medicine,Lab Test,45.91
+CPT10390,Chemotherapy Session Procedure 390,Orthopedics,Chemotherapy Session,2659.57
+CPT10391,Surgery - Major Procedure 391,Internal Medicine,Surgery - Major,27221.98
+CPT10392,Surgery - Major Procedure 392,Emergency Medicine,Surgery - Major,16654.44
+CPT10393,Physical Therapy Procedure 393,Obstetrics,Physical Therapy,160.17
+CPT10394,Consultation Procedure 394,Cardiology,Consultation,178.64
+CPT10395,Emergency Visit Procedure 395,Pediatrics,Emergency Visit,3090.49
+CPT10396,Surgery - Major Procedure 396,Obstetrics,Surgery - Major,41211.96
+CPT10397,Consultation Procedure 397,Neurology,Consultation,210.56
+CPT10398,Physical Therapy Procedure 398,Neurology,Physical Therapy,139.24
+CPT10399,Emergency Visit Procedure 399,Neurology,Emergency Visit,552.44
+CPT10400,Chemotherapy Session Procedure 400,Neurology,Chemotherapy Session,8636.54
+CPT10401,Physical Therapy Procedure 401,Obstetrics,Physical Therapy,74.45
+CPT10402,Lab Test Procedure 402,Pediatrics,Lab Test,133.11
+CPT10403,Emergency Visit Procedure 403,Oncology,Emergency Visit,1183.62
+CPT10404,Consultation Procedure 404,Neurology,Consultation,163.11
+CPT10405,Surgery - Major Procedure 405,Oncology,Surgery - Major,11571.47
+CPT10406,Surgery - Major Procedure 406,Pediatrics,Surgery - Major,36326.46
+CPT10407,Consultation Procedure 407,Pediatrics,Consultation,108.69
+CPT10408,Consultation Procedure 408,Emergency Medicine,Consultation,249.6
+CPT10409,Consultation Procedure 409,Orthopedics,Consultation,109.06
+CPT10410,Surgery - Minor Procedure 410,Internal Medicine,Surgery - Minor,1166.79
+CPT10411,Emergency Visit Procedure 411,General Surgery,Emergency Visit,3201.12
+CPT10412,Surgery - Major Procedure 412,Internal Medicine,Surgery - Major,12605.15
+CPT10413,Emergency Visit Procedure 413,Obstetrics,Emergency Visit,2910.13
+CPT10414,Physical Therapy Procedure 414,General Surgery,Physical Therapy,190.71
+CPT10415,Surgery - Major Procedure 415,Pediatrics,Surgery - Major,8114.26
+CPT10416,Surgery - Minor Procedure 416,Internal Medicine,Surgery - Minor,5768.33
+CPT10417,Consultation Procedure 417,Radiology,Consultation,142.91
+CPT10418,Lab Test Procedure 418,Orthopedics,Lab Test,346.67
+CPT10419,Consultation Procedure 419,Internal Medicine,Consultation,121.42
+CPT10420,Chemotherapy Session Procedure 420,Orthopedics,Chemotherapy Session,7860.75
+CPT10421,Consultation Procedure 421,Oncology,Consultation,78.64
+CPT10422,Surgery - Minor Procedure 422,Obstetrics,Surgery - Minor,3461.26
+CPT10423,Emergency Visit Procedure 423,Orthopedics,Emergency Visit,2739.16
+CPT10424,Surgery - Major Procedure 424,Oncology,Surgery - Major,42391.82
+CPT10425,Consultation Procedure 425,Neurology,Consultation,325.03
+CPT10426,Surgery - Major Procedure 426,Oncology,Surgery - Major,37784.99
+CPT10427,Diagnostic Imaging Procedure 427,Obstetrics,Diagnostic Imaging,2237.25
+CPT10428,Physical Therapy Procedure 428,Emergency Medicine,Physical Therapy,107.81
+CPT10429,Emergency Visit Procedure 429,Neurology,Emergency Visit,1137.81
+CPT10430,Surgery - Major Procedure 430,Pediatrics,Surgery - Major,16558.74
+CPT10431,Lab Test Procedure 431,Cardiology,Lab Test,163.28
+CPT10432,Physical Therapy Procedure 432,Oncology,Physical Therapy,154.4
+CPT10433,Chemotherapy Session Procedure 433,Oncology,Chemotherapy Session,5447.53
+CPT10434,Chemotherapy Session Procedure 434,Orthopedics,Chemotherapy Session,2447.06
+CPT10435,Lab Test Procedure 435,Pediatrics,Lab Test,282.67
+CPT10436,Consultation Procedure 436,Internal Medicine,Consultation,121.08
+CPT10437,Physical Therapy Procedure 437,Radiology,Physical Therapy,134.47
+CPT10438,Surgery - Major Procedure 438,General Surgery,Surgery - Major,25133.81
+CPT10439,Physical Therapy Procedure 439,Oncology,Physical Therapy,251.15
+CPT10440,Consultation Procedure 440,Internal Medicine,Consultation,278.35
+CPT10441,Surgery - Minor Procedure 441,Radiology,Surgery - Minor,4156.78
+CPT10442,Emergency Visit Procedure 442,General Surgery,Emergency Visit,714.05
+CPT10443,Lab Test Procedure 443,Cardiology,Lab Test,227.88
+CPT10444,Consultation Procedure 444,Orthopedics,Consultation,99.05
+CPT10445,Surgery - Minor Procedure 445,Internal Medicine,Surgery - Minor,2762.29
+CPT10446,Physical Therapy Procedure 446,Orthopedics,Physical Therapy,159.24
+CPT10447,Physical Therapy Procedure 447,General Surgery,Physical Therapy,69.55
+CPT10448,Consultation Procedure 448,Emergency Medicine,Consultation,150.35
+CPT10449,Surgery - Major Procedure 449,Oncology,Surgery - Major,43225.98
+CPT10450,Physical Therapy Procedure 450,Neurology,Physical Therapy,288.87
+CPT10451,Surgery - Major Procedure 451,Radiology,Surgery - Major,19093.08
+CPT10452,Surgery - Major Procedure 452,Pediatrics,Surgery - Major,6724.0
+CPT10453,Emergency Visit Procedure 453,Obstetrics,Emergency Visit,791.01
+CPT10454,Surgery - Major Procedure 454,Oncology,Surgery - Major,20688.71
+CPT10455,Diagnostic Imaging Procedure 455,Neurology,Diagnostic Imaging,2377.28
+CPT10456,Emergency Visit Procedure 456,Obstetrics,Emergency Visit,665.96
+CPT10457,Surgery - Minor Procedure 457,Internal Medicine,Surgery - Minor,4770.28
+CPT10458,Surgery - Minor Procedure 458,Obstetrics,Surgery - Minor,1365.15
+CPT10459,Physical Therapy Procedure 459,Cardiology,Physical Therapy,295.5
+CPT10460,Physical Therapy Procedure 460,Oncology,Physical Therapy,151.59
+CPT10461,Surgery - Major Procedure 461,Orthopedics,Surgery - Major,36009.38
+CPT10462,Emergency Visit Procedure 462,Emergency Medicine,Emergency Visit,1330.55
+CPT10463,Emergency Visit Procedure 463,Pediatrics,Emergency Visit,2271.31
+CPT10464,Diagnostic Imaging Procedure 464,Orthopedics,Diagnostic Imaging,601.24
+CPT10465,Surgery - Major Procedure 465,Neurology,Surgery - Major,10840.84
+CPT10466,Diagnostic Imaging Procedure 466,Oncology,Diagnostic Imaging,2354.45
+CPT10467,Chemotherapy Session Procedure 467,Emergency Medicine,Chemotherapy Session,8357.65
+CPT10468,Surgery - Major Procedure 468,Obstetrics,Surgery - Major,40498.76
+CPT10469,Lab Test Procedure 469,Oncology,Lab Test,257.66
+CPT10470,Lab Test Procedure 470,Obstetrics,Lab Test,327.14
+CPT10471,Consultation Procedure 471,Internal Medicine,Consultation,93.99
+CPT10472,Surgery - Major Procedure 472,Cardiology,Surgery - Major,18391.56
+CPT10473,Emergency Visit Procedure 473,General Surgery,Emergency Visit,1235.22
+CPT10474,Physical Therapy Procedure 474,Oncology,Physical Therapy,212.55
+CPT10475,Surgery - Minor Procedure 475,Neurology,Surgery - Minor,2650.98
+CPT10476,Consultation Procedure 476,Obstetrics,Consultation,115.84
+CPT10477,Physical Therapy Procedure 477,Orthopedics,Physical Therapy,203.15
+CPT10478,Lab Test Procedure 478,Internal Medicine,Lab Test,329.47
+CPT10479,Surgery - Major Procedure 479,Neurology,Surgery - Major,20284.94
+CPT10480,Consultation Procedure 480,Pediatrics,Consultation,111.37
+CPT10481,Surgery - Major Procedure 481,General Surgery,Surgery - Major,12867.53
+CPT10482,Lab Test Procedure 482,Internal Medicine,Lab Test,110.24
+CPT10483,Consultation Procedure 483,Cardiology,Consultation,157.47
+CPT10484,Lab Test Procedure 484,General Surgery,Lab Test,264.26
+CPT10485,Diagnostic Imaging Procedure 485,Obstetrics,Diagnostic Imaging,1562.22
+CPT10486,Lab Test Procedure 486,Neurology,Lab Test,284.51
+CPT10487,Emergency Visit Procedure 487,Pediatrics,Emergency Visit,1396.26
+CPT10488,Emergency Visit Procedure 488,Radiology,Emergency Visit,2919.19
+CPT10489,Surgery - Major Procedure 489,Cardiology,Surgery - Major,13163.51
+CPT10490,Surgery - Minor Procedure 490,Emergency Medicine,Surgery - Minor,3239.01
+CPT10491,Lab Test Procedure 491,Obstetrics,Lab Test,324.36
+CPT10492,Physical Therapy Procedure 492,Radiology,Physical Therapy,103.24
+CPT10493,Emergency Visit Procedure 493,Oncology,Emergency Visit,562.55
+CPT10494,Chemotherapy Session Procedure 494,Pediatrics,Chemotherapy Session,8092.73
+CPT10495,Surgery - Minor Procedure 495,Orthopedics,Surgery - Minor,2583.23
+CPT10496,Diagnostic Imaging Procedure 496,Emergency Medicine,Diagnostic Imaging,1757.09
+CPT10497,Consultation Procedure 497,Neurology,Consultation,81.97
+CPT10498,Consultation Procedure 498,Pediatrics,Consultation,264.76
+CPT10499,Emergency Visit Procedure 499,General Surgery,Emergency Visit,1243.13
+CPT10500,Surgery - Minor Procedure 500,Internal Medicine,Surgery - Minor,1089.85
+CPT10501,Emergency Visit Procedure 501,General Surgery,Emergency Visit,2212.38
+CPT10502,Consultation Procedure 502,General Surgery,Consultation,141.22
+CPT10503,Chemotherapy Session Procedure 503,Oncology,Chemotherapy Session,4217.1
+CPT10504,Lab Test Procedure 504,Cardiology,Lab Test,50.62
+CPT10505,Surgery - Minor Procedure 505,Orthopedics,Surgery - Minor,1565.25
+CPT10506,Surgery - Major Procedure 506,Emergency Medicine,Surgery - Major,16919.09
+CPT10507,Lab Test Procedure 507,Cardiology,Lab Test,54.11
+CPT10508,Lab Test Procedure 508,Pediatrics,Lab Test,366.11
+CPT10509,Lab Test Procedure 509,General Surgery,Lab Test,22.3
+CPT10510,Surgery - Major Procedure 510,Oncology,Surgery - Major,24354.41
+CPT10511,Chemotherapy Session Procedure 511,Pediatrics,Chemotherapy Session,2161.33
+CPT10512,Diagnostic Imaging Procedure 512,Internal Medicine,Diagnostic Imaging,873.05
+CPT10513,Chemotherapy Session Procedure 513,Orthopedics,Chemotherapy Session,8423.26
+CPT10514,Chemotherapy Session Procedure 514,Emergency Medicine,Chemotherapy Session,2461.22
+CPT10515,Chemotherapy Session Procedure 515,Internal Medicine,Chemotherapy Session,8733.49
+CPT10516,Physical Therapy Procedure 516,Oncology,Physical Therapy,109.39
+CPT10517,Emergency Visit Procedure 517,Orthopedics,Emergency Visit,2647.17
+CPT10518,Consultation Procedure 518,Pediatrics,Consultation,225.34
+CPT10519,Emergency Visit Procedure 519,General Surgery,Emergency Visit,3118.78
+CPT10520,Surgery - Minor Procedure 520,General Surgery,Surgery - Minor,3680.76
+CPT10521,Chemotherapy Session Procedure 521,Obstetrics,Chemotherapy Session,5369.56
+CPT10522,Diagnostic Imaging Procedure 522,General Surgery,Diagnostic Imaging,609.33
+CPT10523,Surgery - Minor Procedure 523,Radiology,Surgery - Minor,1664.39
+CPT10524,Emergency Visit Procedure 524,General Surgery,Emergency Visit,3224.41
+CPT10525,Consultation Procedure 525,Radiology,Consultation,165.16
+CPT10526,Surgery - Major Procedure 526,Neurology,Surgery - Major,19883.29
+CPT10527,Emergency Visit Procedure 527,Radiology,Emergency Visit,2707.42
+CPT10528,Lab Test Procedure 528,Orthopedics,Lab Test,148.75
+CPT10529,Emergency Visit Procedure 529,Internal Medicine,Emergency Visit,3341.81
+CPT10530,Lab Test Procedure 530,Orthopedics,Lab Test,300.41
+CPT10531,Surgery - Major Procedure 531,Internal Medicine,Surgery - Major,28897.17
+CPT10532,Emergency Visit Procedure 532,Obstetrics,Emergency Visit,3106.95
+CPT10533,Diagnostic Imaging Procedure 533,Neurology,Diagnostic Imaging,266.57
+CPT10534,Diagnostic Imaging Procedure 534,Internal Medicine,Diagnostic Imaging,754.1
+CPT10535,Surgery - Minor Procedure 535,Internal Medicine,Surgery - Minor,3218.19
+CPT10536,Surgery - Major Procedure 536,Oncology,Surgery - Major,14079.14
+CPT10537,Chemotherapy Session Procedure 537,Cardiology,Chemotherapy Session,7002.46
+CPT10538,Diagnostic Imaging Procedure 538,Cardiology,Diagnostic Imaging,2310.14
+CPT10539,Emergency Visit Procedure 539,Oncology,Emergency Visit,1598.44
+CPT10540,Surgery - Major Procedure 540,General Surgery,Surgery - Major,18685.3
+CPT10541,Consultation Procedure 541,Oncology,Consultation,339.43
+CPT10542,Lab Test Procedure 542,Internal Medicine,Lab Test,189.04
+CPT10543,Emergency Visit Procedure 543,Internal Medicine,Emergency Visit,1813.86
+CPT10544,Lab Test Procedure 544,Oncology,Lab Test,153.63
+CPT10545,Lab Test Procedure 545,Oncology,Lab Test,365.63
+CPT10546,Chemotherapy Session Procedure 546,General Surgery,Chemotherapy Session,5637.85
+CPT10547,Surgery - Major Procedure 547,Orthopedics,Surgery - Major,35486.98
+CPT10548,Surgery - Major Procedure 548,Neurology,Surgery - Major,37472.27
+CPT10549,Surgery - Minor Procedure 549,Pediatrics,Surgery - Minor,2577.62
+CPT10550,Lab Test Procedure 550,Internal Medicine,Lab Test,184.8
+CPT10551,Surgery - Minor Procedure 551,Neurology,Surgery - Minor,5212.05
+CPT10552,Chemotherapy Session Procedure 552,Oncology,Chemotherapy Session,4033.39
+CPT10553,Lab Test Procedure 553,General Surgery,Lab Test,321.7
+CPT10554,Surgery - Minor Procedure 554,Radiology,Surgery - Minor,5693.16
+CPT10555,Surgery - Minor Procedure 555,General Surgery,Surgery - Minor,4040.69
+CPT10556,Consultation Procedure 556,Emergency Medicine,Consultation,278.95
+CPT10557,Surgery - Minor Procedure 557,Emergency Medicine,Surgery - Minor,4986.51
+CPT10558,Surgery - Major Procedure 558,Neurology,Surgery - Major,38801.59
+CPT10559,Surgery - Minor Procedure 559,Cardiology,Surgery - Minor,2854.28
+CPT10560,Lab Test Procedure 560,Emergency Medicine,Lab Test,39.48
+CPT10561,Surgery - Minor Procedure 561,Emergency Medicine,Surgery - Minor,2889.76
+CPT10562,Diagnostic Imaging Procedure 562,Orthopedics,Diagnostic Imaging,1733.33
+CPT10563,Physical Therapy Procedure 563,Radiology,Physical Therapy,168.08
+CPT10564,Lab Test Procedure 564,Orthopedics,Lab Test,304.61
+CPT10565,Diagnostic Imaging Procedure 565,Radiology,Diagnostic Imaging,988.91
+CPT10566,Chemotherapy Session Procedure 566,Obstetrics,Chemotherapy Session,6151.0
+CPT10567,Lab Test Procedure 567,Pediatrics,Lab Test,90.84
+CPT10568,Surgery - Major Procedure 568,Internal Medicine,Surgery - Major,34974.78
+CPT10569,Physical Therapy Procedure 569,Emergency Medicine,Physical Therapy,190.97
+CPT10570,Physical Therapy Procedure 570,Internal Medicine,Physical Therapy,108.98
+CPT10571,Surgery - Major Procedure 571,Emergency Medicine,Surgery - Major,16676.45
+CPT10572,Physical Therapy Procedure 572,Orthopedics,Physical Therapy,239.67
+CPT10573,Surgery - Major Procedure 573,Pediatrics,Surgery - Major,24304.05
+CPT10574,Diagnostic Imaging Procedure 574,Orthopedics,Diagnostic Imaging,657.67
+CPT10575,Chemotherapy Session Procedure 575,Orthopedics,Chemotherapy Session,8744.72
+CPT10576,Consultation Procedure 576,Radiology,Consultation,271.66
+CPT10577,Lab Test Procedure 577,Cardiology,Lab Test,383.71
+CPT10578,Surgery - Major Procedure 578,General Surgery,Surgery - Major,22084.2
+CPT10579,Lab Test Procedure 579,Neurology,Lab Test,200.54
+CPT10580,Chemotherapy Session Procedure 580,Internal Medicine,Chemotherapy Session,8204.05
+CPT10581,Diagnostic Imaging Procedure 581,Obstetrics,Diagnostic Imaging,1383.87
+CPT10582,Consultation Procedure 582,Emergency Medicine,Consultation,269.5
+CPT10583,Chemotherapy Session Procedure 583,Orthopedics,Chemotherapy Session,3166.95
+CPT10584,Diagnostic Imaging Procedure 584,Cardiology,Diagnostic Imaging,1199.81
+CPT10585,Physical Therapy Procedure 585,Orthopedics,Physical Therapy,89.63
+CPT10586,Lab Test Procedure 586,Pediatrics,Lab Test,98.27
+CPT10587,Emergency Visit Procedure 587,Radiology,Emergency Visit,203.11
+CPT10588,Consultation Procedure 588,Obstetrics,Consultation,85.8
+CPT10589,Physical Therapy Procedure 589,General Surgery,Physical Therapy,294.55
+CPT10590,Chemotherapy Session Procedure 590,Pediatrics,Chemotherapy Session,3090.36
+CPT10591,Consultation Procedure 591,Oncology,Consultation,257.41
+CPT10592,Physical Therapy Procedure 592,Obstetrics,Physical Therapy,261.38
+CPT10593,Diagnostic Imaging Procedure 593,Orthopedics,Diagnostic Imaging,1444.05
+CPT10594,Surgery - Major Procedure 594,Pediatrics,Surgery - Major,11125.78
+CPT10595,Lab Test Procedure 595,General Surgery,Lab Test,296.68
+CPT10596,Surgery - Minor Procedure 596,Cardiology,Surgery - Minor,3921.31
+CPT10597,Surgery - Minor Procedure 597,Cardiology,Surgery - Minor,4602.5
+CPT10598,Diagnostic Imaging Procedure 598,Internal Medicine,Diagnostic Imaging,1958.9
+CPT10599,Chemotherapy Session Procedure 599,General Surgery,Chemotherapy Session,8808.2
+CPT10600,Lab Test Procedure 600,Cardiology,Lab Test,237.95
+CPT10601,Chemotherapy Session Procedure 601,Pediatrics,Chemotherapy Session,3864.8
+CPT10602,Lab Test Procedure 602,Internal Medicine,Lab Test,266.42
+CPT10603,Diagnostic Imaging Procedure 603,Cardiology,Diagnostic Imaging,310.84
+CPT10604,Lab Test Procedure 604,Obstetrics,Lab Test,361.01
+CPT10605,Surgery - Major Procedure 605,Radiology,Surgery - Major,9775.24
+CPT10606,Chemotherapy Session Procedure 606,Oncology,Chemotherapy Session,3757.17
+CPT10607,Diagnostic Imaging Procedure 607,General Surgery,Diagnostic Imaging,2067.0
+CPT10608,Surgery - Major Procedure 608,Pediatrics,Surgery - Major,28892.5
+CPT10609,Lab Test Procedure 609,Emergency Medicine,Lab Test,169.58
+CPT10610,Diagnostic Imaging Procedure 610,Orthopedics,Diagnostic Imaging,1262.57
+CPT10611,Lab Test Procedure 611,Pediatrics,Lab Test,344.73
+CPT10612,Chemotherapy Session Procedure 612,Cardiology,Chemotherapy Session,3852.03
+CPT10613,Diagnostic Imaging Procedure 613,Pediatrics,Diagnostic Imaging,2193.68
+CPT10614,Lab Test Procedure 614,Emergency Medicine,Lab Test,53.49
+CPT10615,Chemotherapy Session Procedure 615,Orthopedics,Chemotherapy Session,7259.03
+CPT10616,Surgery - Major Procedure 616,Internal Medicine,Surgery - Major,38901.91
+CPT10617,Emergency Visit Procedure 617,Cardiology,Emergency Visit,800.0
+CPT10618,Surgery - Major Procedure 618,Neurology,Surgery - Major,22213.86
+CPT10619,Lab Test Procedure 619,Cardiology,Lab Test,82.89
+CPT10620,Diagnostic Imaging Procedure 620,Oncology,Diagnostic Imaging,1810.52
+CPT10621,Surgery - Minor Procedure 621,Neurology,Surgery - Minor,3583.81
+CPT10622,Surgery - Major Procedure 622,Oncology,Surgery - Major,30412.93
+CPT10623,Surgery - Major Procedure 623,Emergency Medicine,Surgery - Major,12859.48
+CPT10624,Chemotherapy Session Procedure 624,General Surgery,Chemotherapy Session,2851.62
+CPT10625,Physical Therapy Procedure 625,Orthopedics,Physical Therapy,69.96
+CPT10626,Surgery - Minor Procedure 626,Radiology,Surgery - Minor,2474.75
+CPT10627,Lab Test Procedure 627,Internal Medicine,Lab Test,232.7
+CPT10628,Emergency Visit Procedure 628,Radiology,Emergency Visit,3031.19
+CPT10629,Diagnostic Imaging Procedure 629,Obstetrics,Diagnostic Imaging,1717.28
+CPT10630,Physical Therapy Procedure 630,Obstetrics,Physical Therapy,164.5
+CPT10631,Lab Test Procedure 631,Emergency Medicine,Lab Test,382.19
+CPT10632,Consultation Procedure 632,General Surgery,Consultation,272.79
+CPT10633,Emergency Visit Procedure 633,Obstetrics,Emergency Visit,3269.55
+CPT10634,Surgery - Major Procedure 634,Cardiology,Surgery - Major,26103.52
+CPT10635,Consultation Procedure 635,Pediatrics,Consultation,146.2
+CPT10636,Surgery - Major Procedure 636,Oncology,Surgery - Major,7113.07
+CPT10637,Surgery - Major Procedure 637,Obstetrics,Surgery - Major,34043.39
+CPT10638,Consultation Procedure 638,Emergency Medicine,Consultation,108.36
+CPT10639,Emergency Visit Procedure 639,Oncology,Emergency Visit,1199.16
+CPT10640,Chemotherapy Session Procedure 640,Cardiology,Chemotherapy Session,5353.27
+CPT10641,Consultation Procedure 641,General Surgery,Consultation,230.21
+CPT10642,Lab Test Procedure 642,Orthopedics,Lab Test,248.22
+CPT10643,Physical Therapy Procedure 643,Radiology,Physical Therapy,99.9
+CPT10644,Physical Therapy Procedure 644,Cardiology,Physical Therapy,151.14
+CPT10645,Consultation Procedure 645,Internal Medicine,Consultation,244.73
+CPT10646,Lab Test Procedure 646,Neurology,Lab Test,388.53
+CPT10647,Chemotherapy Session Procedure 647,Emergency Medicine,Chemotherapy Session,6875.52
+CPT10648,Physical Therapy Procedure 648,Radiology,Physical Therapy,281.42
+CPT10649,Lab Test Procedure 649,Internal Medicine,Lab Test,309.64
+CPT10650,Chemotherapy Session Procedure 650,Orthopedics,Chemotherapy Session,5815.39
+CPT10651,Lab Test Procedure 651,Internal Medicine,Lab Test,92.97
+CPT10652,Surgery - Major Procedure 652,General Surgery,Surgery - Major,31667.43
+CPT10653,Physical Therapy Procedure 653,Neurology,Physical Therapy,209.61
+CPT10654,Chemotherapy Session Procedure 654,Oncology,Chemotherapy Session,5899.26
+CPT10655,Physical Therapy Procedure 655,Radiology,Physical Therapy,177.55
+CPT10656,Surgery - Major Procedure 656,Neurology,Surgery - Major,26146.26
+CPT10657,Consultation Procedure 657,Pediatrics,Consultation,166.97
+CPT10658,Surgery - Major Procedure 658,Cardiology,Surgery - Major,25772.51
+CPT10659,Physical Therapy Procedure 659,Pediatrics,Physical Therapy,107.41
+CPT10660,Physical Therapy Procedure 660,Cardiology,Physical Therapy,253.24
+CPT10661,Emergency Visit Procedure 661,General Surgery,Emergency Visit,813.06
+CPT10662,Chemotherapy Session Procedure 662,Neurology,Chemotherapy Session,1862.74
+CPT10663,Consultation Procedure 663,Orthopedics,Consultation,194.97
+CPT10664,Surgery - Major Procedure 664,Obstetrics,Surgery - Major,31332.3
+CPT10665,Chemotherapy Session Procedure 665,Internal Medicine,Chemotherapy Session,4614.19
+CPT10666,Diagnostic Imaging Procedure 666,Obstetrics,Diagnostic Imaging,800.37
+CPT10667,Chemotherapy Session Procedure 667,Neurology,Chemotherapy Session,5553.74
+CPT10668,Diagnostic Imaging Procedure 668,Pediatrics,Diagnostic Imaging,965.46
+CPT10669,Consultation Procedure 669,Obstetrics,Consultation,331.54
+CPT10670,Surgery - Major Procedure 670,Emergency Medicine,Surgery - Major,41905.81
+CPT10671,Surgery - Major Procedure 671,Obstetrics,Surgery - Major,25094.87
+CPT10672,Lab Test Procedure 672,Cardiology,Lab Test,144.6
+CPT10673,Physical Therapy Procedure 673,Emergency Medicine,Physical Therapy,236.91
+CPT10674,Surgery - Minor Procedure 674,Radiology,Surgery - Minor,990.91
+CPT10675,Emergency Visit Procedure 675,Obstetrics,Emergency Visit,1766.74
+CPT10676,Chemotherapy Session Procedure 676,Emergency Medicine,Chemotherapy Session,3823.32
+CPT10677,Consultation Procedure 677,Neurology,Consultation,328.15
+CPT10678,Surgery - Minor Procedure 678,Internal Medicine,Surgery - Minor,862.42
+CPT10679,Chemotherapy Session Procedure 679,Radiology,Chemotherapy Session,5511.96
+CPT10680,Surgery - Minor Procedure 680,Orthopedics,Surgery - Minor,4651.45
+CPT10681,Consultation Procedure 681,Orthopedics,Consultation,208.38
+CPT10682,Surgery - Major Procedure 682,General Surgery,Surgery - Major,8416.12
+CPT10683,Consultation Procedure 683,Obstetrics,Consultation,342.43
+CPT10684,Chemotherapy Session Procedure 684,Internal Medicine,Chemotherapy Session,5240.48
+CPT10685,Surgery - Minor Procedure 685,Oncology,Surgery - Minor,3993.77
+CPT10686,Physical Therapy Procedure 686,Emergency Medicine,Physical Therapy,116.79
+CPT10687,Emergency Visit Procedure 687,Radiology,Emergency Visit,1795.54
+CPT10688,Emergency Visit Procedure 688,Neurology,Emergency Visit,1616.19
+CPT10689,Physical Therapy Procedure 689,Obstetrics,Physical Therapy,77.98
+CPT10690,Physical Therapy Procedure 690,Neurology,Physical Therapy,85.48
+CPT10691,Surgery - Major Procedure 691,Oncology,Surgery - Major,38498.9
+CPT10692,Chemotherapy Session Procedure 692,General Surgery,Chemotherapy Session,3070.6
+CPT10693,Diagnostic Imaging Procedure 693,Oncology,Diagnostic Imaging,608.15
+CPT10694,Consultation Procedure 694,Cardiology,Consultation,213.85
+CPT10695,Emergency Visit Procedure 695,Pediatrics,Emergency Visit,2736.87
+CPT10696,Physical Therapy Procedure 696,Radiology,Physical Therapy,74.87
+CPT10697,Consultation Procedure 697,Pediatrics,Consultation,233.62
+CPT10698,Emergency Visit Procedure 698,Oncology,Emergency Visit,593.39
+CPT10699,Physical Therapy Procedure 699,General Surgery,Physical Therapy,68.75
+CPT10700,Chemotherapy Session Procedure 700,General Surgery,Chemotherapy Session,1611.4
+CPT10701,Emergency Visit Procedure 701,Orthopedics,Emergency Visit,2952.74
+CPT10702,Surgery - Major Procedure 702,Obstetrics,Surgery - Major,9718.9
+CPT10703,Diagnostic Imaging Procedure 703,Orthopedics,Diagnostic Imaging,256.11
+CPT10704,Diagnostic Imaging Procedure 704,Radiology,Diagnostic Imaging,1179.06
+CPT10705,Physical Therapy Procedure 705,Radiology,Physical Therapy,262.56
+CPT10706,Emergency Visit Procedure 706,Radiology,Emergency Visit,1065.95
+CPT10707,Surgery - Major Procedure 707,Neurology,Surgery - Major,21868.5
+CPT10708,Lab Test Procedure 708,Orthopedics,Lab Test,35.17
+CPT10709,Consultation Procedure 709,Neurology,Consultation,198.5
+CPT10710,Consultation Procedure 710,Pediatrics,Consultation,233.84
+CPT10711,Surgery - Minor Procedure 711,Obstetrics,Surgery - Minor,3768.72
+CPT10712,Surgery - Major Procedure 712,Oncology,Surgery - Major,18297.07
+CPT10713,Emergency Visit Procedure 713,Emergency Medicine,Emergency Visit,1241.26
+CPT10714,Chemotherapy Session Procedure 714,Orthopedics,Chemotherapy Session,2031.66
+CPT10715,Chemotherapy Session Procedure 715,Emergency Medicine,Chemotherapy Session,4061.03
+CPT10716,Surgery - Minor Procedure 716,General Surgery,Surgery - Minor,1317.37
+CPT10717,Physical Therapy Procedure 717,Orthopedics,Physical Therapy,243.98
+CPT10718,Emergency Visit Procedure 718,Pediatrics,Emergency Visit,3388.71
+CPT10719,Surgery - Minor Procedure 719,Orthopedics,Surgery - Minor,5844.39
+CPT10720,Diagnostic Imaging Procedure 720,Neurology,Diagnostic Imaging,2182.92
+CPT10721,Consultation Procedure 721,Obstetrics,Consultation,240.22
+CPT10722,Emergency Visit Procedure 722,Oncology,Emergency Visit,2512.86
+CPT10723,Surgery - Minor Procedure 723,Internal Medicine,Surgery - Minor,2283.07
+CPT10724,Diagnostic Imaging Procedure 724,Oncology,Diagnostic Imaging,1632.31
+CPT10725,Surgery - Major Procedure 725,Oncology,Surgery - Major,23225.98
+CPT10726,Surgery - Minor Procedure 726,General Surgery,Surgery - Minor,3306.49
+CPT10727,Physical Therapy Procedure 727,Pediatrics,Physical Therapy,241.87
+CPT10728,Physical Therapy Procedure 728,Emergency Medicine,Physical Therapy,127.66
+CPT10729,Physical Therapy Procedure 729,Pediatrics,Physical Therapy,136.33
+CPT10730,Emergency Visit Procedure 730,Internal Medicine,Emergency Visit,3251.32
+CPT10731,Chemotherapy Session Procedure 731,General Surgery,Chemotherapy Session,1638.55
+CPT10732,Chemotherapy Session Procedure 732,Obstetrics,Chemotherapy Session,4987.95
+CPT10733,Consultation Procedure 733,Oncology,Consultation,326.02
+CPT10734,Surgery - Minor Procedure 734,Neurology,Surgery - Minor,3973.89
+CPT10735,Surgery - Major Procedure 735,General Surgery,Surgery - Major,26856.28
+CPT10736,Surgery - Minor Procedure 736,Radiology,Surgery - Minor,2098.67
+CPT10737,Consultation Procedure 737,Orthopedics,Consultation,169.4
+CPT10738,Diagnostic Imaging Procedure 738,Pediatrics,Diagnostic Imaging,2152.31
+CPT10739,Consultation Procedure 739,General Surgery,Consultation,228.78
+CPT10740,Physical Therapy Procedure 740,Radiology,Physical Therapy,183.54
+CPT10741,Emergency Visit Procedure 741,Emergency Medicine,Emergency Visit,528.61
+CPT10742,Diagnostic Imaging Procedure 742,Internal Medicine,Diagnostic Imaging,187.67
+CPT10743,Emergency Visit Procedure 743,Internal Medicine,Emergency Visit,3380.16
+CPT10744,Physical Therapy Procedure 744,Oncology,Physical Therapy,150.48
+CPT10745,Lab Test Procedure 745,Oncology,Lab Test,249.22
+CPT10746,Consultation Procedure 746,General Surgery,Consultation,96.92
+CPT10747,Consultation Procedure 747,General Surgery,Consultation,262.86
+CPT10748,Surgery - Major Procedure 748,Obstetrics,Surgery - Major,42302.67
+CPT10749,Surgery - Minor Procedure 749,Orthopedics,Surgery - Minor,3793.46
+CPT10750,Diagnostic Imaging Procedure 750,Cardiology,Diagnostic Imaging,446.37
+CPT10751,Chemotherapy Session Procedure 751,Emergency Medicine,Chemotherapy Session,5737.43
+CPT10752,Emergency Visit Procedure 752,Oncology,Emergency Visit,2728.95
+CPT10753,Diagnostic Imaging Procedure 753,Cardiology,Diagnostic Imaging,1105.08
+CPT10754,Surgery - Major Procedure 754,Cardiology,Surgery - Major,40193.51
+CPT10755,Surgery - Major Procedure 755,Orthopedics,Surgery - Major,30947.32
+CPT10756,Emergency Visit Procedure 756,Neurology,Emergency Visit,3167.52
+CPT10757,Chemotherapy Session Procedure 757,Neurology,Chemotherapy Session,6063.34
+CPT10758,Surgery - Minor Procedure 758,Oncology,Surgery - Minor,1482.7
+CPT10759,Emergency Visit Procedure 759,Radiology,Emergency Visit,1221.98
+CPT10760,Emergency Visit Procedure 760,Orthopedics,Emergency Visit,865.92
+CPT10761,Physical Therapy Procedure 761,Orthopedics,Physical Therapy,278.12
+CPT10762,Chemotherapy Session Procedure 762,Pediatrics,Chemotherapy Session,7131.12
+CPT10763,Surgery - Minor Procedure 763,Cardiology,Surgery - Minor,4317.27
+CPT10764,Consultation Procedure 764,Pediatrics,Consultation,157.77
+CPT10765,Physical Therapy Procedure 765,Cardiology,Physical Therapy,104.17
+CPT10766,Lab Test Procedure 766,Neurology,Lab Test,307.45
+CPT10767,Chemotherapy Session Procedure 767,Oncology,Chemotherapy Session,4898.43
+CPT10768,Surgery - Minor Procedure 768,Emergency Medicine,Surgery - Minor,1974.11
+CPT10769,Surgery - Major Procedure 769,Neurology,Surgery - Major,29664.88
+CPT10770,Physical Therapy Procedure 770,Orthopedics,Physical Therapy,69.68
+CPT10771,Surgery - Minor Procedure 771,Emergency Medicine,Surgery - Minor,2496.09
+CPT10772,Diagnostic Imaging Procedure 772,General Surgery,Diagnostic Imaging,1251.11
+CPT10773,Emergency Visit Procedure 773,Emergency Medicine,Emergency Visit,688.26
+CPT10774,Lab Test Procedure 774,Emergency Medicine,Lab Test,394.17
+CPT10775,Consultation Procedure 775,Neurology,Consultation,132.5
+CPT10776,Emergency Visit Procedure 776,Orthopedics,Emergency Visit,630.17
+CPT10777,Diagnostic Imaging Procedure 777,Emergency Medicine,Diagnostic Imaging,628.31
+CPT10778,Diagnostic Imaging Procedure 778,Neurology,Diagnostic Imaging,1957.29
+CPT10779,Lab Test Procedure 779,Neurology,Lab Test,181.69
+CPT10780,Consultation Procedure 780,Emergency Medicine,Consultation,230.49
+CPT10781,Surgery - Major Procedure 781,Cardiology,Surgery - Major,5840.37
+CPT10782,Physical Therapy Procedure 782,Orthopedics,Physical Therapy,68.26
+CPT10783,Chemotherapy Session Procedure 783,Internal Medicine,Chemotherapy Session,4677.44
+CPT10784,Consultation Procedure 784,Emergency Medicine,Consultation,299.58
+CPT10785,Chemotherapy Session Procedure 785,Pediatrics,Chemotherapy Session,8104.86
+CPT10786,Surgery - Minor Procedure 786,Pediatrics,Surgery - Minor,1250.87
+CPT10787,Diagnostic Imaging Procedure 787,General Surgery,Diagnostic Imaging,1415.15
+CPT10788,Surgery - Minor Procedure 788,Orthopedics,Surgery - Minor,5548.79
+CPT10789,Surgery - Major Procedure 789,Neurology,Surgery - Major,20518.91
+CPT10790,Surgery - Minor Procedure 790,Obstetrics,Surgery - Minor,5113.74
+CPT10791,Consultation Procedure 791,Oncology,Consultation,111.77
+CPT10792,Surgery - Minor Procedure 792,Radiology,Surgery - Minor,5664.05
+CPT10793,Surgery - Major Procedure 793,Obstetrics,Surgery - Major,35056.93
+CPT10794,Surgery - Major Procedure 794,Orthopedics,Surgery - Major,42653.38
+CPT10795,Surgery - Major Procedure 795,Orthopedics,Surgery - Major,32064.69
+CPT10796,Consultation Procedure 796,Emergency Medicine,Consultation,174.94
+CPT10797,Surgery - Major Procedure 797,Emergency Medicine,Surgery - Major,42527.25
+CPT10798,Diagnostic Imaging Procedure 798,Obstetrics,Diagnostic Imaging,797.58
+CPT10799,Emergency Visit Procedure 799,Neurology,Emergency Visit,1296.17
+CPT10800,Surgery - Major Procedure 800,General Surgery,Surgery - Major,33032.34
+CPT10801,Surgery - Minor Procedure 801,Emergency Medicine,Surgery - Minor,4779.64
+CPT10802,Physical Therapy Procedure 802,Radiology,Physical Therapy,283.06
+CPT10803,Surgery - Minor Procedure 803,Radiology,Surgery - Minor,1864.97
+CPT10804,Physical Therapy Procedure 804,General Surgery,Physical Therapy,251.52
+CPT10805,Surgery - Minor Procedure 805,Cardiology,Surgery - Minor,4640.44
+CPT10806,Consultation Procedure 806,Cardiology,Consultation,92.54
+CPT10807,Surgery - Minor Procedure 807,Orthopedics,Surgery - Minor,2813.56
+CPT10808,Consultation Procedure 808,Emergency Medicine,Consultation,152.76
+CPT10809,Consultation Procedure 809,Pediatrics,Consultation,158.73
+CPT10810,Surgery - Major Procedure 810,Obstetrics,Surgery - Major,44317.88
+CPT10811,Diagnostic Imaging Procedure 811,Internal Medicine,Diagnostic Imaging,1660.53
+CPT10812,Physical Therapy Procedure 812,General Surgery,Physical Therapy,232.24
+CPT10813,Surgery - Major Procedure 813,Orthopedics,Surgery - Major,44064.71
+CPT10814,Surgery - Major Procedure 814,Pediatrics,Surgery - Major,20088.07
+CPT10815,Emergency Visit Procedure 815,Emergency Medicine,Emergency Visit,2846.07
+CPT10816,Consultation Procedure 816,Pediatrics,Consultation,194.5
+CPT10817,Consultation Procedure 817,Pediatrics,Consultation,314.12
+CPT10818,Physical Therapy Procedure 818,General Surgery,Physical Therapy,103.36
+CPT10819,Surgery - Minor Procedure 819,Orthopedics,Surgery - Minor,5727.97
+CPT10820,Surgery - Minor Procedure 820,Neurology,Surgery - Minor,1937.61
+CPT10821,Chemotherapy Session Procedure 821,Radiology,Chemotherapy Session,3744.52
+CPT10822,Surgery - Major Procedure 822,Obstetrics,Surgery - Major,35247.69
+CPT10823,Chemotherapy Session Procedure 823,Orthopedics,Chemotherapy Session,4271.29
+CPT10824,Lab Test Procedure 824,Internal Medicine,Lab Test,251.12
+CPT10825,Lab Test Procedure 825,Pediatrics,Lab Test,188.94
+CPT10826,Chemotherapy Session Procedure 826,Neurology,Chemotherapy Session,6990.49
+CPT10827,Surgery - Minor Procedure 827,General Surgery,Surgery - Minor,1987.32
+CPT10828,Lab Test Procedure 828,Oncology,Lab Test,42.21
+CPT10829,Emergency Visit Procedure 829,Obstetrics,Emergency Visit,1189.77
+CPT10830,Surgery - Minor Procedure 830,Obstetrics,Surgery - Minor,3266.41
+CPT10831,Consultation Procedure 831,Radiology,Consultation,121.21
+CPT10832,Surgery - Major Procedure 832,Oncology,Surgery - Major,19191.89
+CPT10833,Diagnostic Imaging Procedure 833,Emergency Medicine,Diagnostic Imaging,1089.96
+CPT10834,Surgery - Major Procedure 834,Oncology,Surgery - Major,7295.67
+CPT10835,Chemotherapy Session Procedure 835,Pediatrics,Chemotherapy Session,5749.8
+CPT10836,Surgery - Minor Procedure 836,Pediatrics,Surgery - Minor,5398.59
+CPT10837,Chemotherapy Session Procedure 837,Pediatrics,Chemotherapy Session,2383.59
+CPT10838,Emergency Visit Procedure 838,Pediatrics,Emergency Visit,2172.77
+CPT10839,Surgery - Minor Procedure 839,Orthopedics,Surgery - Minor,4256.64
+CPT10840,Surgery - Major Procedure 840,Obstetrics,Surgery - Major,21773.39
+CPT10841,Emergency Visit Procedure 841,Oncology,Emergency Visit,2513.62
+CPT10842,Emergency Visit Procedure 842,Obstetrics,Emergency Visit,1555.41
+CPT10843,Emergency Visit Procedure 843,Internal Medicine,Emergency Visit,1865.3
+CPT10844,Physical Therapy Procedure 844,Oncology,Physical Therapy,61.76
+CPT10845,Surgery - Minor Procedure 845,Orthopedics,Surgery - Minor,4396.94
+CPT10846,Lab Test Procedure 846,Internal Medicine,Lab Test,271.31
+CPT10847,Lab Test Procedure 847,Obstetrics,Lab Test,34.59
+CPT10848,Surgery - Minor Procedure 848,Internal Medicine,Surgery - Minor,2714.9
+CPT10849,Surgery - Minor Procedure 849,Radiology,Surgery - Minor,5890.97
+CPT10850,Physical Therapy Procedure 850,Internal Medicine,Physical Therapy,160.98
+CPT10851,Lab Test Procedure 851,Oncology,Lab Test,210.74
+CPT10852,Surgery - Minor Procedure 852,Pediatrics,Surgery - Minor,5531.64
+CPT10853,Surgery - Minor Procedure 853,Pediatrics,Surgery - Minor,4529.76
+CPT10854,Chemotherapy Session Procedure 854,Emergency Medicine,Chemotherapy Session,5740.15
+CPT10855,Physical Therapy Procedure 855,Obstetrics,Physical Therapy,251.47
+CPT10856,Physical Therapy Procedure 856,Radiology,Physical Therapy,267.45
+CPT10857,Surgery - Major Procedure 857,Oncology,Surgery - Major,23275.52
+CPT10858,Physical Therapy Procedure 858,Oncology,Physical Therapy,174.03
+CPT10859,Diagnostic Imaging Procedure 859,General Surgery,Diagnostic Imaging,1057.22
+CPT10860,Lab Test Procedure 860,Cardiology,Lab Test,387.35
+CPT10861,Surgery - Major Procedure 861,Obstetrics,Surgery - Major,32886.65
+CPT10862,Diagnostic Imaging Procedure 862,Oncology,Diagnostic Imaging,345.57
+CPT10863,Surgery - Minor Procedure 863,Neurology,Surgery - Minor,5287.39
+CPT10864,Chemotherapy Session Procedure 864,Oncology,Chemotherapy Session,4948.37
+CPT10865,Chemotherapy Session Procedure 865,General Surgery,Chemotherapy Session,1736.28
+CPT10866,Surgery - Minor Procedure 866,Internal Medicine,Surgery - Minor,3658.53
+CPT10867,Surgery - Major Procedure 867,Orthopedics,Surgery - Major,21686.57
+CPT10868,Physical Therapy Procedure 868,Orthopedics,Physical Therapy,270.66
+CPT10869,Emergency Visit Procedure 869,Neurology,Emergency Visit,873.18
+CPT10870,Chemotherapy Session Procedure 870,Neurology,Chemotherapy Session,7646.42
+CPT10871,Emergency Visit Procedure 871,Emergency Medicine,Emergency Visit,2040.37
+CPT10872,Surgery - Minor Procedure 872,Orthopedics,Surgery - Minor,1083.97
+CPT10873,Emergency Visit Procedure 873,Internal Medicine,Emergency Visit,3407.09
+CPT10874,Consultation Procedure 874,Orthopedics,Consultation,215.97
+CPT10875,Surgery - Major Procedure 875,Cardiology,Surgery - Major,16635.07
+CPT10876,Diagnostic Imaging Procedure 876,Obstetrics,Diagnostic Imaging,1253.11
+CPT10877,Surgery - Major Procedure 877,Orthopedics,Surgery - Major,39314.31
+CPT10878,Lab Test Procedure 878,Pediatrics,Lab Test,135.86
+CPT10879,Physical Therapy Procedure 879,Emergency Medicine,Physical Therapy,106.24
+CPT10880,Physical Therapy Procedure 880,General Surgery,Physical Therapy,90.98
+CPT10881,Surgery - Major Procedure 881,Neurology,Surgery - Major,16914.38
+CPT10882,Surgery - Minor Procedure 882,Cardiology,Surgery - Minor,4856.25
+CPT10883,Surgery - Minor Procedure 883,Neurology,Surgery - Minor,3252.46
+CPT10884,Consultation Procedure 884,Emergency Medicine,Consultation,137.56
+CPT10885,Consultation Procedure 885,Oncology,Consultation,120.7
+CPT10886,Physical Therapy Procedure 886,Cardiology,Physical Therapy,139.86
+CPT10887,Consultation Procedure 887,Radiology,Consultation,333.48
+CPT10888,Chemotherapy Session Procedure 888,Cardiology,Chemotherapy Session,3875.61
+CPT10889,Chemotherapy Session Procedure 889,Emergency Medicine,Chemotherapy Session,8907.37
+CPT10890,Diagnostic Imaging Procedure 890,General Surgery,Diagnostic Imaging,1290.29
+CPT10891,Consultation Procedure 891,Cardiology,Consultation,124.27
+CPT10892,Diagnostic Imaging Procedure 892,Emergency Medicine,Diagnostic Imaging,2244.18
+CPT10893,Consultation Procedure 893,Internal Medicine,Consultation,201.6
+CPT10894,Physical Therapy Procedure 894,Obstetrics,Physical Therapy,230.32
+CPT10895,Physical Therapy Procedure 895,Orthopedics,Physical Therapy,296.09
+CPT10896,Diagnostic Imaging Procedure 896,Internal Medicine,Diagnostic Imaging,267.91
+CPT10897,Surgery - Major Procedure 897,Emergency Medicine,Surgery - Major,8867.78
+CPT10898,Physical Therapy Procedure 898,Pediatrics,Physical Therapy,232.91
+CPT10899,Surgery - Major Procedure 899,Oncology,Surgery - Major,16273.0
+CPT10900,Surgery - Minor Procedure 900,Orthopedics,Surgery - Minor,1758.37
+CPT10901,Chemotherapy Session Procedure 901,Pediatrics,Chemotherapy Session,1507.02
+CPT10902,Diagnostic Imaging Procedure 902,General Surgery,Diagnostic Imaging,201.34
+CPT10903,Emergency Visit Procedure 903,Neurology,Emergency Visit,2755.8
+CPT10904,Physical Therapy Procedure 904,Radiology,Physical Therapy,92.26
+CPT10905,Lab Test Procedure 905,Orthopedics,Lab Test,197.73
+CPT10906,Surgery - Minor Procedure 906,Internal Medicine,Surgery - Minor,3950.66
+CPT10907,Surgery - Major Procedure 907,Oncology,Surgery - Major,22134.07
+CPT10908,Physical Therapy Procedure 908,Pediatrics,Physical Therapy,66.51
+CPT10909,Diagnostic Imaging Procedure 909,Emergency Medicine,Diagnostic Imaging,1991.23
+CPT10910,Emergency Visit Procedure 910,Orthopedics,Emergency Visit,234.69
+CPT10911,Consultation Procedure 911,Neurology,Consultation,284.52
+CPT10912,Emergency Visit Procedure 912,Emergency Medicine,Emergency Visit,3147.9
+CPT10913,Lab Test Procedure 913,Pediatrics,Lab Test,184.48
+CPT10914,Surgery - Major Procedure 914,Oncology,Surgery - Major,26421.7
+CPT10915,Surgery - Minor Procedure 915,Cardiology,Surgery - Minor,3280.31
+CPT10916,Emergency Visit Procedure 916,Neurology,Emergency Visit,1484.39
+CPT10917,Diagnostic Imaging Procedure 917,Emergency Medicine,Diagnostic Imaging,2235.45
+CPT10918,Lab Test Procedure 918,Neurology,Lab Test,359.69
+CPT10919,Diagnostic Imaging Procedure 919,General Surgery,Diagnostic Imaging,939.17
+CPT10920,Physical Therapy Procedure 920,Emergency Medicine,Physical Therapy,207.62
+CPT10921,Consultation Procedure 921,Orthopedics,Consultation,329.9
+CPT10922,Surgery - Minor Procedure 922,Cardiology,Surgery - Minor,5802.7
+CPT10923,Diagnostic Imaging Procedure 923,Cardiology,Diagnostic Imaging,1346.05
+CPT10924,Surgery - Major Procedure 924,Radiology,Surgery - Major,23112.99
+CPT10925,Physical Therapy Procedure 925,Neurology,Physical Therapy,126.89
+CPT10926,Physical Therapy Procedure 926,Internal Medicine,Physical Therapy,290.13
+CPT10927,Surgery - Minor Procedure 927,Cardiology,Surgery - Minor,1542.63
+CPT10928,Physical Therapy Procedure 928,Cardiology,Physical Therapy,199.16
+CPT10929,Surgery - Major Procedure 929,General Surgery,Surgery - Major,16302.01
+CPT10930,Diagnostic Imaging Procedure 930,Obstetrics,Diagnostic Imaging,805.67
+CPT10931,Surgery - Minor Procedure 931,General Surgery,Surgery - Minor,2905.84
+CPT10932,Chemotherapy Session Procedure 932,General Surgery,Chemotherapy Session,8990.58
+CPT10933,Physical Therapy Procedure 933,Obstetrics,Physical Therapy,73.19
+CPT10934,Physical Therapy Procedure 934,Neurology,Physical Therapy,198.85
+CPT10935,Surgery - Major Procedure 935,Emergency Medicine,Surgery - Major,8302.89
+CPT10936,Consultation Procedure 936,Oncology,Consultation,117.49
+CPT10937,Consultation Procedure 937,Internal Medicine,Consultation,195.88
+CPT10938,Emergency Visit Procedure 938,Cardiology,Emergency Visit,1884.52
+CPT10939,Physical Therapy Procedure 939,Radiology,Physical Therapy,122.11
+CPT10940,Chemotherapy Session Procedure 940,Internal Medicine,Chemotherapy Session,3668.37
+CPT10941,Diagnostic Imaging Procedure 941,Emergency Medicine,Diagnostic Imaging,354.37
+CPT10942,Surgery - Minor Procedure 942,Obstetrics,Surgery - Minor,2376.74
+CPT10943,Physical Therapy Procedure 943,Internal Medicine,Physical Therapy,291.97
+CPT10944,Lab Test Procedure 944,Cardiology,Lab Test,378.99
+CPT10945,Surgery - Minor Procedure 945,Internal Medicine,Surgery - Minor,2541.37
+CPT10946,Emergency Visit Procedure 946,Oncology,Emergency Visit,2083.82
+CPT10947,Consultation Procedure 947,Obstetrics,Consultation,325.14
+CPT10948,Chemotherapy Session Procedure 948,Internal Medicine,Chemotherapy Session,1248.23
+CPT10949,Physical Therapy Procedure 949,Cardiology,Physical Therapy,254.56
+CPT10950,Surgery - Major Procedure 950,Cardiology,Surgery - Major,42934.78
+CPT10951,Lab Test Procedure 951,Internal Medicine,Lab Test,54.7
+CPT10952,Physical Therapy Procedure 952,Neurology,Physical Therapy,98.75
+CPT10953,Chemotherapy Session Procedure 953,Radiology,Chemotherapy Session,8693.82
+CPT10954,Emergency Visit Procedure 954,Pediatrics,Emergency Visit,1973.88
+CPT10955,Diagnostic Imaging Procedure 955,General Surgery,Diagnostic Imaging,183.36
+CPT10956,Lab Test Procedure 956,Obstetrics,Lab Test,117.9
+CPT10957,Emergency Visit Procedure 957,Pediatrics,Emergency Visit,1684.81
+CPT10958,Physical Therapy Procedure 958,Emergency Medicine,Physical Therapy,226.3
+CPT10959,Diagnostic Imaging Procedure 959,Emergency Medicine,Diagnostic Imaging,1872.93
+CPT10960,Lab Test Procedure 960,Cardiology,Lab Test,398.26
+CPT10961,Diagnostic Imaging Procedure 961,Emergency Medicine,Diagnostic Imaging,825.65
+CPT10962,Diagnostic Imaging Procedure 962,Neurology,Diagnostic Imaging,1414.82
+CPT10963,Lab Test Procedure 963,Radiology,Lab Test,222.66
+CPT10964,Lab Test Procedure 964,Emergency Medicine,Lab Test,174.15
+CPT10965,Diagnostic Imaging Procedure 965,Oncology,Diagnostic Imaging,547.53
+CPT10966,Emergency Visit Procedure 966,Radiology,Emergency Visit,3425.61
+CPT10967,Chemotherapy Session Procedure 967,Neurology,Chemotherapy Session,7855.87
+CPT10968,Consultation Procedure 968,Pediatrics,Consultation,212.04
+CPT10969,Lab Test Procedure 969,Radiology,Lab Test,249.23
+CPT10970,Physical Therapy Procedure 970,Radiology,Physical Therapy,114.54
+CPT10971,Surgery - Minor Procedure 971,Pediatrics,Surgery - Minor,3627.69
+CPT10972,Surgery - Major Procedure 972,Neurology,Surgery - Major,32798.81
+CPT10973,Diagnostic Imaging Procedure 973,Emergency Medicine,Diagnostic Imaging,1360.64
+CPT10974,Diagnostic Imaging Procedure 974,Cardiology,Diagnostic Imaging,2477.17
+CPT10975,Surgery - Major Procedure 975,Obstetrics,Surgery - Major,29453.67
+CPT10976,Consultation Procedure 976,Pediatrics,Consultation,177.02
+CPT10977,Surgery - Major Procedure 977,Pediatrics,Surgery - Major,35886.08
+CPT10978,Lab Test Procedure 978,Pediatrics,Lab Test,84.78
+CPT10979,Surgery - Major Procedure 979,Pediatrics,Surgery - Major,20380.63
+CPT10980,Diagnostic Imaging Procedure 980,Obstetrics,Diagnostic Imaging,965.35
+CPT10981,Surgery - Major Procedure 981,Obstetrics,Surgery - Major,22272.28
+CPT10982,Surgery - Minor Procedure 982,Emergency Medicine,Surgery - Minor,4865.26
+CPT10983,Physical Therapy Procedure 983,Internal Medicine,Physical Therapy,176.2
+CPT10984,Lab Test Procedure 984,Internal Medicine,Lab Test,321.73
+CPT10985,Surgery - Major Procedure 985,Orthopedics,Surgery - Major,28059.56
+CPT10986,Diagnostic Imaging Procedure 986,Pediatrics,Diagnostic Imaging,953.86
+CPT10987,Emergency Visit Procedure 987,Pediatrics,Emergency Visit,2872.93
+CPT10988,Physical Therapy Procedure 988,Radiology,Physical Therapy,117.19
+CPT10989,Lab Test Procedure 989,Internal Medicine,Lab Test,105.27
+CPT10990,Diagnostic Imaging Procedure 990,Emergency Medicine,Diagnostic Imaging,1335.58
+CPT10991,Consultation Procedure 991,Cardiology,Consultation,146.73
+CPT10992,Surgery - Minor Procedure 992,Orthopedics,Surgery - Minor,847.25
+CPT10993,Chemotherapy Session Procedure 993,Orthopedics,Chemotherapy Session,6256.72
+CPT10994,Consultation Procedure 994,Emergency Medicine,Consultation,215.55
+CPT10995,Chemotherapy Session Procedure 995,Cardiology,Chemotherapy Session,4675.04
+CPT10996,Surgery - Minor Procedure 996,Radiology,Surgery - Minor,5828.24
+CPT10997,Surgery - Major Procedure 997,Obstetrics,Surgery - Major,27847.97
+CPT10998,Lab Test Procedure 998,General Surgery,Lab Test,348.1
+CPT10999,Surgery - Major Procedure 999,Internal Medicine,Surgery - Major,10578.01
+CPT11000,Surgery - Minor Procedure 1000,Pediatrics,Surgery - Minor,3759.87
+CPT11001,Surgery - Minor Procedure 1001,Emergency Medicine,Surgery - Minor,5313.49
+CPT11002,Surgery - Minor Procedure 1002,Internal Medicine,Surgery - Minor,3832.15
+CPT11003,Chemotherapy Session Procedure 1003,Pediatrics,Chemotherapy Session,6800.51
+CPT11004,Physical Therapy Procedure 1004,General Surgery,Physical Therapy,149.29
+CPT11005,Diagnostic Imaging Procedure 1005,General Surgery,Diagnostic Imaging,367.26
+CPT11006,Lab Test Procedure 1006,Obstetrics,Lab Test,194.0
+CPT11007,Surgery - Major Procedure 1007,Neurology,Surgery - Major,20779.18
+CPT11008,Surgery - Major Procedure 1008,General Surgery,Surgery - Major,39682.41
+CPT11009,Consultation Procedure 1009,Internal Medicine,Consultation,142.1
+CPT11010,Chemotherapy Session Procedure 1010,Oncology,Chemotherapy Session,8740.53
+CPT11011,Surgery - Minor Procedure 1011,Oncology,Surgery - Minor,5782.32
+CPT11012,Emergency Visit Procedure 1012,Pediatrics,Emergency Visit,1017.18
+CPT11013,Surgery - Minor Procedure 1013,Pediatrics,Surgery - Minor,2609.87
+CPT11014,Surgery - Minor Procedure 1014,Neurology,Surgery - Minor,5456.89
+CPT11015,Emergency Visit Procedure 1015,Oncology,Emergency Visit,3389.85
+CPT11016,Surgery - Major Procedure 1016,Pediatrics,Surgery - Major,22737.56
+CPT11017,Consultation Procedure 1017,General Surgery,Consultation,163.27
+CPT11018,Diagnostic Imaging Procedure 1018,Pediatrics,Diagnostic Imaging,1386.32
+CPT11019,Emergency Visit Procedure 1019,Orthopedics,Emergency Visit,2469.64
+CPT11020,Chemotherapy Session Procedure 1020,Neurology,Chemotherapy Session,3333.1
+CPT11021,Physical Therapy Procedure 1021,Emergency Medicine,Physical Therapy,236.75
+CPT11022,Lab Test Procedure 1022,Cardiology,Lab Test,39.63
+CPT11023,Chemotherapy Session Procedure 1023,Radiology,Chemotherapy Session,1584.5
+CPT11024,Emergency Visit Procedure 1024,Cardiology,Emergency Visit,1474.75
+CPT11025,Diagnostic Imaging Procedure 1025,Cardiology,Diagnostic Imaging,980.66
+CPT11026,Surgery - Major Procedure 1026,Obstetrics,Surgery - Major,17625.33
+CPT11027,Physical Therapy Procedure 1027,Emergency Medicine,Physical Therapy,177.84
+CPT11028,Physical Therapy Procedure 1028,Pediatrics,Physical Therapy,136.98
+CPT11029,Physical Therapy Procedure 1029,Obstetrics,Physical Therapy,106.14
+CPT11030,Surgery - Minor Procedure 1030,Cardiology,Surgery - Minor,2409.24
+CPT11031,Lab Test Procedure 1031,Orthopedics,Lab Test,390.46
+CPT11032,Surgery - Major Procedure 1032,Radiology,Surgery - Major,21444.54
+CPT11033,Surgery - Major Procedure 1033,Cardiology,Surgery - Major,22788.51
+CPT11034,Physical Therapy Procedure 1034,Oncology,Physical Therapy,198.37
+CPT11035,Surgery - Major Procedure 1035,Emergency Medicine,Surgery - Major,44333.63
+CPT11036,Lab Test Procedure 1036,Emergency Medicine,Lab Test,111.81
+CPT11037,Lab Test Procedure 1037,Emergency Medicine,Lab Test,278.89
+CPT11038,Consultation Procedure 1038,Neurology,Consultation,271.9
+CPT11039,Emergency Visit Procedure 1039,Neurology,Emergency Visit,2204.17
+CPT11040,Emergency Visit Procedure 1040,General Surgery,Emergency Visit,492.31
+CPT11041,Consultation Procedure 1041,Internal Medicine,Consultation,261.14
+CPT11042,Diagnostic Imaging Procedure 1042,Radiology,Diagnostic Imaging,300.62
+CPT11043,Emergency Visit Procedure 1043,Obstetrics,Emergency Visit,2167.27
+CPT11044,Lab Test Procedure 1044,Pediatrics,Lab Test,301.04
+CPT11045,Lab Test Procedure 1045,Cardiology,Lab Test,100.17
+CPT11046,Emergency Visit Procedure 1046,Internal Medicine,Emergency Visit,2977.35
+CPT11047,Lab Test Procedure 1047,Pediatrics,Lab Test,31.53
+CPT11048,Consultation Procedure 1048,Obstetrics,Consultation,307.05
+CPT11049,Physical Therapy Procedure 1049,Internal Medicine,Physical Therapy,170.48
+CPT11050,Physical Therapy Procedure 1050,Pediatrics,Physical Therapy,112.22
+CPT11051,Surgery - Major Procedure 1051,Orthopedics,Surgery - Major,10351.13
+CPT11052,Chemotherapy Session Procedure 1052,Neurology,Chemotherapy Session,8635.8
+CPT11053,Chemotherapy Session Procedure 1053,Obstetrics,Chemotherapy Session,1766.79
+CPT11054,Physical Therapy Procedure 1054,Radiology,Physical Therapy,107.78
+CPT11055,Surgery - Minor Procedure 1055,Oncology,Surgery - Minor,2608.68
+CPT11056,Consultation Procedure 1056,Orthopedics,Consultation,245.56
+CPT11057,Lab Test Procedure 1057,Neurology,Lab Test,227.02
+CPT11058,Emergency Visit Procedure 1058,Emergency Medicine,Emergency Visit,614.62
+CPT11059,Physical Therapy Procedure 1059,Neurology,Physical Therapy,129.53
+CPT11060,Consultation Procedure 1060,Internal Medicine,Consultation,140.66
+CPT11061,Physical Therapy Procedure 1061,General Surgery,Physical Therapy,111.25
+CPT11062,Diagnostic Imaging Procedure 1062,Orthopedics,Diagnostic Imaging,1116.19
+CPT11063,Lab Test Procedure 1063,Emergency Medicine,Lab Test,287.53
+CPT11064,Diagnostic Imaging Procedure 1064,Internal Medicine,Diagnostic Imaging,661.01
+CPT11065,Lab Test Procedure 1065,Obstetrics,Lab Test,159.34
+CPT11066,Consultation Procedure 1066,Radiology,Consultation,182.5
+CPT11067,Surgery - Major Procedure 1067,Neurology,Surgery - Major,44058.26
+CPT11068,Physical Therapy Procedure 1068,Obstetrics,Physical Therapy,289.12
+CPT11069,Physical Therapy Procedure 1069,Emergency Medicine,Physical Therapy,252.03
+CPT11070,Surgery - Minor Procedure 1070,Internal Medicine,Surgery - Minor,2056.63
+CPT11071,Emergency Visit Procedure 1071,General Surgery,Emergency Visit,424.52
+CPT11072,Diagnostic Imaging Procedure 1072,Neurology,Diagnostic Imaging,894.72
+CPT11073,Physical Therapy Procedure 1073,Radiology,Physical Therapy,124.03
+CPT11074,Consultation Procedure 1074,General Surgery,Consultation,214.13
+CPT11075,Surgery - Major Procedure 1075,Pediatrics,Surgery - Major,36109.12
+CPT11076,Emergency Visit Procedure 1076,Internal Medicine,Emergency Visit,3032.47
+CPT11077,Consultation Procedure 1077,Obstetrics,Consultation,307.34
+CPT11078,Diagnostic Imaging Procedure 1078,Neurology,Diagnostic Imaging,995.24
+CPT11079,Surgery - Minor Procedure 1079,Neurology,Surgery - Minor,4373.62
+CPT11080,Physical Therapy Procedure 1080,Emergency Medicine,Physical Therapy,135.08
+CPT11081,Consultation Procedure 1081,Radiology,Consultation,91.75
+CPT11082,Emergency Visit Procedure 1082,Oncology,Emergency Visit,2515.17
+CPT11083,Lab Test Procedure 1083,Pediatrics,Lab Test,23.73
+CPT11084,Surgery - Major Procedure 1084,General Surgery,Surgery - Major,21367.3
+CPT11085,Emergency Visit Procedure 1085,Orthopedics,Emergency Visit,1286.95
+CPT11086,Consultation Procedure 1086,Orthopedics,Consultation,265.68
+CPT11087,Surgery - Major Procedure 1087,Neurology,Surgery - Major,35649.82
+CPT11088,Physical Therapy Procedure 1088,Emergency Medicine,Physical Therapy,132.98
+CPT11089,Lab Test Procedure 1089,Cardiology,Lab Test,328.42
+CPT11090,Surgery - Minor Procedure 1090,Neurology,Surgery - Minor,2328.37
+CPT11091,Emergency Visit Procedure 1091,Orthopedics,Emergency Visit,1672.88
+CPT11092,Surgery - Minor Procedure 1092,Orthopedics,Surgery - Minor,4580.5
+CPT11093,Lab Test Procedure 1093,Pediatrics,Lab Test,283.31
+CPT11094,Surgery - Major Procedure 1094,Obstetrics,Surgery - Major,44494.74
+CPT11095,Physical Therapy Procedure 1095,Cardiology,Physical Therapy,114.04
+CPT11096,Consultation Procedure 1096,Neurology,Consultation,257.14
+CPT11097,Lab Test Procedure 1097,Pediatrics,Lab Test,251.68
+CPT11098,Diagnostic Imaging Procedure 1098,Emergency Medicine,Diagnostic Imaging,2300.48
+CPT11099,Surgery - Major Procedure 1099,Pediatrics,Surgery - Major,11254.49
+CPT11100,Surgery - Minor Procedure 1100,Neurology,Surgery - Minor,4709.35
+CPT11101,Emergency Visit Procedure 1101,Internal Medicine,Emergency Visit,2075.29
+CPT11102,Lab Test Procedure 1102,Oncology,Lab Test,124.37
+CPT11103,Surgery - Minor Procedure 1103,Neurology,Surgery - Minor,3267.06
+CPT11104,Surgery - Major Procedure 1104,Radiology,Surgery - Major,18351.06
+CPT11105,Surgery - Minor Procedure 1105,Orthopedics,Surgery - Minor,3812.43
+CPT11106,Lab Test Procedure 1106,Cardiology,Lab Test,357.82
+CPT11107,Surgery - Major Procedure 1107,Cardiology,Surgery - Major,27772.2
+CPT11108,Diagnostic Imaging Procedure 1108,Obstetrics,Diagnostic Imaging,1634.55
+CPT11109,Lab Test Procedure 1109,Oncology,Lab Test,217.12
+CPT11110,Consultation Procedure 1110,Radiology,Consultation,89.07
+CPT11111,Chemotherapy Session Procedure 1111,Orthopedics,Chemotherapy Session,3016.3
+CPT11112,Physical Therapy Procedure 1112,Cardiology,Physical Therapy,178.08
+CPT11113,Lab Test Procedure 1113,Radiology,Lab Test,137.89
+CPT11114,Surgery - Major Procedure 1114,Pediatrics,Surgery - Major,12270.54
+CPT11115,Emergency Visit Procedure 1115,Obstetrics,Emergency Visit,1863.64
+CPT11116,Physical Therapy Procedure 1116,Neurology,Physical Therapy,137.47
+CPT11117,Lab Test Procedure 1117,Neurology,Lab Test,118.08
+CPT11118,Diagnostic Imaging Procedure 1118,Internal Medicine,Diagnostic Imaging,1240.37
+CPT11119,Emergency Visit Procedure 1119,Orthopedics,Emergency Visit,639.84
+CPT11120,Diagnostic Imaging Procedure 1120,Radiology,Diagnostic Imaging,2330.2
+CPT11121,Consultation Procedure 1121,General Surgery,Consultation,313.62
+CPT11122,Emergency Visit Procedure 1122,Cardiology,Emergency Visit,2535.15
+CPT11123,Surgery - Minor Procedure 1123,Emergency Medicine,Surgery - Minor,1352.31
+CPT11124,Chemotherapy Session Procedure 1124,Emergency Medicine,Chemotherapy Session,7251.84
+CPT11125,Emergency Visit Procedure 1125,Neurology,Emergency Visit,2866.26
+CPT11126,Physical Therapy Procedure 1126,General Surgery,Physical Therapy,244.26
+CPT11127,Emergency Visit Procedure 1127,Emergency Medicine,Emergency Visit,576.09
+CPT11128,Surgery - Major Procedure 1128,Oncology,Surgery - Major,30756.32
+CPT11129,Chemotherapy Session Procedure 1129,Oncology,Chemotherapy Session,7707.73
+CPT11130,Surgery - Major Procedure 1130,Orthopedics,Surgery - Major,28094.14
+CPT11131,Surgery - Minor Procedure 1131,General Surgery,Surgery - Minor,4161.32
+CPT11132,Emergency Visit Procedure 1132,Oncology,Emergency Visit,1712.6
+CPT11133,Diagnostic Imaging Procedure 1133,Oncology,Diagnostic Imaging,1392.46
+CPT11134,Diagnostic Imaging Procedure 1134,Neurology,Diagnostic Imaging,230.79
+CPT11135,Lab Test Procedure 1135,Emergency Medicine,Lab Test,262.81
+CPT11136,Consultation Procedure 1136,Orthopedics,Consultation,97.4
+CPT11137,Physical Therapy Procedure 1137,Radiology,Physical Therapy,164.4
+CPT11138,Chemotherapy Session Procedure 1138,Pediatrics,Chemotherapy Session,3482.71
+CPT11139,Consultation Procedure 1139,Cardiology,Consultation,224.99
+CPT11140,Emergency Visit Procedure 1140,Cardiology,Emergency Visit,640.27
+CPT11141,Consultation Procedure 1141,Obstetrics,Consultation,265.2
+CPT11142,Lab Test Procedure 1142,Pediatrics,Lab Test,322.1
+CPT11143,Consultation Procedure 1143,Pediatrics,Consultation,119.92
+CPT11144,Chemotherapy Session Procedure 1144,Cardiology,Chemotherapy Session,2013.64
+CPT11145,Surgery - Minor Procedure 1145,Cardiology,Surgery - Minor,1556.68
+CPT11146,Lab Test Procedure 1146,Radiology,Lab Test,353.31
+CPT11147,Surgery - Minor Procedure 1147,General Surgery,Surgery - Minor,3546.58
+CPT11148,Emergency Visit Procedure 1148,General Surgery,Emergency Visit,1741.96
+CPT11149,Lab Test Procedure 1149,Radiology,Lab Test,60.55
+CPT11150,Emergency Visit Procedure 1150,Emergency Medicine,Emergency Visit,2343.53
+CPT11151,Emergency Visit Procedure 1151,Pediatrics,Emergency Visit,3064.4
+CPT11152,Consultation Procedure 1152,Internal Medicine,Consultation,302.75
+CPT11153,Surgery - Minor Procedure 1153,Pediatrics,Surgery - Minor,4055.48
+CPT11154,Emergency Visit Procedure 1154,Obstetrics,Emergency Visit,448.42
+CPT11155,Surgery - Minor Procedure 1155,Cardiology,Surgery - Minor,1384.46
+CPT11156,Surgery - Minor Procedure 1156,Pediatrics,Surgery - Minor,1056.41
+CPT11157,Lab Test Procedure 1157,Cardiology,Lab Test,117.84
+CPT11158,Surgery - Major Procedure 1158,Pediatrics,Surgery - Major,10426.46
+CPT11159,Consultation Procedure 1159,Obstetrics,Consultation,146.51
+CPT11160,Emergency Visit Procedure 1160,Emergency Medicine,Emergency Visit,1470.69
+CPT11161,Surgery - Minor Procedure 1161,Internal Medicine,Surgery - Minor,5703.51
+CPT11162,Physical Therapy Procedure 1162,Oncology,Physical Therapy,206.49
+CPT11163,Surgery - Major Procedure 1163,Radiology,Surgery - Major,38398.95
+CPT11164,Emergency Visit Procedure 1164,Radiology,Emergency Visit,2544.16
+CPT11165,Physical Therapy Procedure 1165,Internal Medicine,Physical Therapy,87.0
+CPT11166,Consultation Procedure 1166,Pediatrics,Consultation,277.38
+CPT11167,Consultation Procedure 1167,Oncology,Consultation,150.65
+CPT11168,Surgery - Minor Procedure 1168,Obstetrics,Surgery - Minor,4123.36
+CPT11169,Surgery - Minor Procedure 1169,General Surgery,Surgery - Minor,2573.0
+CPT11170,Chemotherapy Session Procedure 1170,Pediatrics,Chemotherapy Session,8981.84
+CPT11171,Chemotherapy Session Procedure 1171,Emergency Medicine,Chemotherapy Session,3255.7
+CPT11172,Emergency Visit Procedure 1172,Cardiology,Emergency Visit,1121.13
+CPT11173,Lab Test Procedure 1173,Orthopedics,Lab Test,373.66
+CPT11174,Surgery - Major Procedure 1174,Pediatrics,Surgery - Major,5985.78
+CPT11175,Emergency Visit Procedure 1175,Orthopedics,Emergency Visit,2499.07
+CPT11176,Surgery - Major Procedure 1176,Pediatrics,Surgery - Major,34013.06
+CPT11177,Surgery - Minor Procedure 1177,Internal Medicine,Surgery - Minor,5149.17
+CPT11178,Consultation Procedure 1178,Orthopedics,Consultation,342.97
+CPT11179,Surgery - Minor Procedure 1179,Pediatrics,Surgery - Minor,5873.13
+CPT11180,Consultation Procedure 1180,Radiology,Consultation,92.95
+CPT11181,Chemotherapy Session Procedure 1181,Orthopedics,Chemotherapy Session,7610.35
+CPT11182,Emergency Visit Procedure 1182,Pediatrics,Emergency Visit,2332.82
+CPT11183,Chemotherapy Session Procedure 1183,General Surgery,Chemotherapy Session,6249.27
+CPT11184,Consultation Procedure 1184,Cardiology,Consultation,110.3
+CPT11185,Surgery - Minor Procedure 1185,General Surgery,Surgery - Minor,4180.97
+CPT11186,Chemotherapy Session Procedure 1186,Oncology,Chemotherapy Session,8863.36
+CPT11187,Diagnostic Imaging Procedure 1187,Pediatrics,Diagnostic Imaging,2292.77
+CPT11188,Surgery - Major Procedure 1188,Neurology,Surgery - Major,22565.23
+CPT11189,Physical Therapy Procedure 1189,Emergency Medicine,Physical Therapy,69.59
+CPT11190,Consultation Procedure 1190,General Surgery,Consultation,174.63
+CPT11191,Consultation Procedure 1191,Orthopedics,Consultation,302.26
+CPT11192,Diagnostic Imaging Procedure 1192,Internal Medicine,Diagnostic Imaging,1798.52
+CPT11193,Emergency Visit Procedure 1193,Emergency Medicine,Emergency Visit,1715.83
+CPT11194,Emergency Visit Procedure 1194,Neurology,Emergency Visit,381.84
+CPT11195,Emergency Visit Procedure 1195,Obstetrics,Emergency Visit,1608.75
+CPT11196,Physical Therapy Procedure 1196,Pediatrics,Physical Therapy,172.57
+CPT11197,Lab Test Procedure 1197,Internal Medicine,Lab Test,372.85
+CPT11198,Diagnostic Imaging Procedure 1198,Pediatrics,Diagnostic Imaging,1656.55
+CPT11199,Physical Therapy Procedure 1199,Oncology,Physical Therapy,134.8

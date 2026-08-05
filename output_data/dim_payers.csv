@@ -1,0 +1,16 @@
+payer_id,payer_name,payer_type,denial_strictness,avg_processing_days
+1,Medicare,Medicare,0.057,23
+2,Medicaid,Medicaid,0.215,34
+3,BlueShield Regional,Private,0.186,31
+4,UnitedCare Plus,Private,0.1,39
+5,Aetnix Health,Private,0.217,29
+6,Cigna Bridge,Private,0.152,30
+7,Humana Direct,Private,0.149,41
+8,Oxford Freedom,Private,0.177,30
+9,Anthem Prime,Private,0.188,44
+10,Kaiser Connect,Private,0.162,41
+11,MetroHealth Plan,Private,0.072,39
+12,Liberty Mutual Health,Private,0.108,21
+13,Guardian Care Network,Private,0.208,27
+14,Premier PPO,Private,0.088,30
+15,National Health Alliance,Private,0.113,22
