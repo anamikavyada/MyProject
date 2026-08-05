@@ -34,7 +34,7 @@ The Power BI report analyzes **465,435 claims** across a simulated **2021–2025
 
 ### Executive Summary
 
-![Executive Summary](docs/dashboard-previews/executive-summary.svg)
+![Executive Summary](docs/dashboard-previews/executive-summary.svg.png)
 
 The executive view combines KPI cards, denial-rate trends, denial-reason contribution, and interactive payer/department filters.
 
