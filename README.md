@@ -40,13 +40,13 @@ The executive view combines KPI cards, denial-rate trends, denial-reason contrib
 
 ### Payer Drilldown
 
-![Payer Drilldown](docs/dashboard-previews/payer-drilldown.svg)
+![Payer Drilldown](docs/dashboard-previews/payer-drilldown.pvg)
 
 The payer view moves from payer-level denial performance into provider-level detail using Total Claims, Denial Rate, and Net Leakage.
 
 ### Provider Risk
 
-![Provider Risk](docs/dashboard-previews/provider-risk.svg)
+![Provider Risk](docs/dashboard-previews/provider-risk.pvg)
 
 The provider-risk view segments providers into Low, Moderate, High, and Very High Risk tiers and compares experience, denial rate, department, and claim volume.
 
