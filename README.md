@@ -89,11 +89,13 @@ This creates a traceable path from **KPI → payer/provider → individual claim
 ```text
 Synthetic Claims Data
         ↓
-Data Cleaning & Validation
+Data Profiling & Quality Checks
         ↓
-SQL Analytical Layer
+SQL Cleaning / Analytical View
         ↓
-Python / Pandas Analysis
+Python / Pandas EDA
+        ↓
+Business KPI Definition
         ↓
 Power BI Data Model + DAX
         ↓
@@ -102,57 +104,140 @@ Interactive Dashboard
 Business Insights & Recommendations
 ```
 
-### Data Preparation & Quality
+## SQL Data Exploration & Quality Analysis
 
-- Standardized claim status values
-- Validated required fields
-- Checked null and blank values
-- Checked duplicate claim identifiers
-- Validated payer/provider/department relationships
-- Reconciled claim-level totals with dashboard aggregates
+SQL Server is used as the analytical layer for **profiling, data-quality validation, cleaning, and business analysis** before downstream Python EDA and Power BI reporting.
 
-### SQL Analytics
+### Phase 1 — Basic Profiling
 
-The portfolio demonstrates:
+Initial profiling was performed across the fact and dimension tables to understand data volume, structure, distributions, and potential anomalies.
 
-- CTEs
-- Multi-table joins
-- Conditional aggregation
-- Window functions
-- Ranking
-- Period-over-period analysis
-- Pareto analysis
-- Data-quality checks
-- KPI-ready analytical outputs
+Checks included:
 
-Example:
+- Row counts across `dim_date`, `dim_payers`, `dim_providers`, `dim_procedures`, `dim_patients`, `fact_claims`, and `fact_denial_appeals`
+- Sample record inspection from claims and payer tables
+- Claim status distribution and frequency analysis
+- Minimum, maximum, average, and standard deviation of claim amounts
+
+### Phase 2 — Data Quality Checks
+
+A structured data-quality assessment was performed before business analysis.
+
+| Check | Purpose |
+|---|---|
+| Missing denial reasons | Identify denied claims without a denial classification |
+| Duplicate claims | Detect potentially duplicated claim records using patient, provider, procedure, and submission-date combinations |
+| Orphan providers | Identify claims referencing provider IDs missing from the provider dimension |
+| Invalid dates | Detect claims where processing occurred before submission |
+| Claim amount outliers | Identify unusually high-value claims using a 5-standard-deviation threshold |
+| Quality scorecard | Consolidate the major data-quality findings into one validation output |
+
+### Phase 3 — Data Cleaning
+
+Rather than modifying the raw claims table, a controlled analytical view was created:
+
+`dbo.vw_claims_clean`
+
+The view:
+
+- Standardizes claim status values such as `Denied`, `Paid`, and `Partial`
+- Flags records where `date_processed < date_submitted`
+- Excludes orphan provider records from downstream analysis
+- Preserves the original `fact_claims` source table
+
+This creates a trustworthy analytical layer that can be reused by downstream SQL queries, Python EDA, and Power BI reporting.
+
+### Phase 4 — Business Exploration
+
+The cleaned analytical view is then used to answer business questions such as:
+
+- What is the overall claim denial rate?
+- Which payers have the highest denial rates?
+- Which denial reasons represent the greatest dollar exposure?
+- How does average Days in AR vary by payer type?
+
+### Example — Overall Denial Rate
 
 ```sql
 SELECT
-    payer_name,
     COUNT(*) AS total_claims,
     SUM(CASE WHEN status_clean = 'Denied' THEN 1 ELSE 0 END) AS denied_claims,
     CAST(
-        100.0 * SUM(CASE WHEN status_clean = 'Denied' THEN 1 ELSE 0 END)
-        / NULLIF(COUNT(*), 0)
-        AS DECIMAL(10,2)
-    ) AS denial_rate
-FROM claims
-GROUP BY payer_name
+        SUM(CASE WHEN status_clean = 'Denied' THEN 1 ELSE 0 END)
+        AS FLOAT
+    ) / COUNT(*) AS denial_rate
+FROM dbo.vw_claims_clean;
+```
+
+### Example — Payer-Level Denial Analysis
+
+The cleaned claims view is joined with `dim_payers` to compare total claims, denied claims, and denial rates across payers.
+
+```sql
+SELECT
+    dp.payer_name,
+    COUNT(*) AS total_claims,
+    SUM(CASE WHEN vc.status_clean = 'Denied' THEN 1 ELSE 0 END) AS denied_claims,
+    CAST(
+        SUM(CASE WHEN vc.status_clean = 'Denied' THEN 1 ELSE 0 END)
+        AS FLOAT
+    ) / COUNT(*) AS denial_rate
+FROM dbo.vw_claims_clean vc
+JOIN dbo.dim_payers dp
+    ON vc.payer_id = dp.payer_id
+GROUP BY dp.payer_name
 ORDER BY denial_rate DESC;
 ```
 
-### Python
+### Example — Denial Reason Financial Exposure
 
-Python/Pandas is used for:
+Denied claims are grouped by denial reason to identify which categories have the greatest associated claim-dollar exposure.
 
-- Data preparation
-- Exploratory data analysis
-- Validation checks
-- Analytical transformations
-- Feature preparation for reporting
+```sql
+SELECT
+    denial_reason_code,
+    COUNT(*) AS num_claims,
+    SUM(claim_amount) AS total_denied_dollars
+FROM dbo.vw_claims_clean
+WHERE status_clean = 'Denied'
+GROUP BY denial_reason_code
+ORDER BY total_denied_dollars DESC;
+```
 
-### Power BI
+### Example — Average Days in AR by Payer Type
+
+```sql
+SELECT
+    dp.payer_type,
+    AVG(vc.days_in_ar * 1.0) AS avg_days_in_ar
+FROM dbo.vw_claims_clean vc
+JOIN dbo.dim_payers dp
+    ON vc.payer_id = dp.payer_id
+GROUP BY dp.payer_type;
+```
+
+## Python EDA
+
+Python/Pandas is used after the SQL validation layer for exploratory analysis and visual investigation of claim patterns.
+
+The repository's `outputs/` folder contains the generated EDA visualizations used to investigate claim volume, denial behavior, payer/provider variation, financial exposure, and other analytical patterns.
+
+The Python EDA complements the SQL analysis by providing visual exploration before the findings are translated into Power BI.
+
+## Data Preparation & Quality
+
+The analytical workflow includes:
+
+- Standardizing claim status values
+- Missing-value and null analysis
+- Duplicate detection
+- Orphan dimension-record detection
+- Date-logic validation
+- Claim amount outlier detection
+- Payer/provider relationship validation
+- Reconciliation of analytical outputs with dashboard aggregates
+
+## Power BI
 
 The report uses:
 
@@ -191,23 +276,11 @@ Denial categories represented include **Duplicate Claim, Eligibility Expired, No
 
 Because the dataset is synthetic, these are **portfolio recommendations**, not claimed real-world savings.
 
-## Data Quality & Validation
-
-Data quality is treated as part of the analytical solution through:
-
-- Duplicate detection
-- Missing-value analysis
-- Status consistency checks
-- Payer/provider relationship validation
-- Numeric validation of claim amounts
-- Denial-reason consistency
-- Aggregate reconciliation
-
 ## Interview Talking Points
 
-**Data Analyst:** I started with claim-level data, applied data-quality and business-rule checks, calculated core KPIs, and designed Power BI views that allow stakeholders to move from executive metrics into payer, provider, and claim-level analysis.
+**Data Analyst:** I started with claim-level data, performed structured SQL profiling and data-quality checks, created a cleaned analytical view, used Python for exploratory analysis, and designed Power BI views that allow stakeholders to move from executive metrics into payer, provider, and claim-level analysis.
 
-**SQL:** I used joins, CTEs, conditional aggregation, window functions, ranking, trend analysis, and reconciliation checks to create reliable analytical outputs.
+**SQL:** I used joins, conditional aggregation, data-quality checks, outlier detection, analytical views, and reconciliation logic to create reliable analytical outputs.
 
 **Power BI:** Executives need KPIs and trends, managers need payer/provider comparisons, and analysts need claim-level records for investigation, so the report provides progressively deeper levels of detail.
 
@@ -218,10 +291,10 @@ Data quality is treated as part of the analytical solution through:
 | Category | Tools |
 |---|---|
 | BI | Power BI Desktop, DAX |
-| Querying | SQL |
+| Querying | SQL Server |
 | Programming | Python, Pandas |
-| Analytics | KPI analysis, EDA, trend analysis, Pareto analysis, risk segmentation |
-| Data Quality | Validation, reconciliation, duplicate/null checks |
+| Analytics | KPI analysis, EDA, trend analysis, financial exposure, risk segmentation |
+| Data Quality | Validation, reconciliation, duplicate/null checks, date and relationship checks |
 | Business Analysis | Root-cause analysis, prioritization, decision support |
 
 ## Data Disclaimer
